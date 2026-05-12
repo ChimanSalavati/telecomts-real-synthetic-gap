@@ -1,0 +1,15 @@
+origin,context_field,value,count
+real,zone,A,279
+synthetic,zone,C,340
+synthetic,zone,A,311
+synthetic,zone,B,305
+real,application,Twitch,94
+real,application,File,93
+real,application,Youtube,92
+synthetic,application,Youtube,341
+synthetic,application,File,339
+synthetic,application,Twitch,276
+real,mobility,No,279
+synthetic,mobility,No,956
+real,congestion,No,279
+synthetic,congestion,No,956

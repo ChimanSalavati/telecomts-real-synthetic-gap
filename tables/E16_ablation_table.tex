@@ -1,0 +1,22 @@
+% E16 anti-confound transfer ablation. HGB on the full-scale split, 10 seeds, 18-window calibration (f=10%).
+% Generated from experiments/E16_rsrp_ablation_transfer/results/E16_compact.json.
+\begin{table}[t]
+  \caption{Anti-confound transfer ablation (HGB, full-scale split, mean$\pm$std over 10 seeds). Synthetic-only training fails on controlled-real Jamming \emph{in every feature subset}, including the subset with all RSRP-derived features removed and the subset with all absolute-level statistics removed. Calibration with 18 controlled-real windows ($f\!=\!10\%$) repairs the gap in every subset. The failure is therefore an operating-regime coverage gap, not a trivial RSRP-feature shortcut.}
+  \label{tab:e16_ablation}
+  \footnotesize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    Feature subset & Calib. & Real & Synth & $F_1$ & AUC \\
+    \midrule
+    All 240 feats          & $f\!=\!0$    & 0.001{\tiny$\pm$0.005} & 0.957{\tiny$\pm$0.016} & 0.810{\tiny$\pm$0.009} & 0.882{\tiny$\pm$0.009} \\
+    All 240 feats          & $f\!=\!10\%$ & \textbf{0.907}{\tiny$\pm$0.063} & 0.966{\tiny$\pm$0.011} & 0.962{\tiny$\pm$0.009} & 0.998{\tiny$\pm$0.001} \\
+    \midrule
+    No RSRP (225 feats)    & $f\!=\!0$    & 0.000{\tiny$\pm$0.000} & 0.943{\tiny$\pm$0.011} & 0.807{\tiny$\pm$0.005} & 0.904{\tiny$\pm$0.010} \\
+    No RSRP (225 feats)    & $f\!=\!10\%$ & 0.281{\tiny$\pm$0.126} & 0.960{\tiny$\pm$0.007} & 0.848{\tiny$\pm$0.017} & 0.974{\tiny$\pm$0.008} \\
+    \midrule
+    No level (176 feats)   & $f\!=\!0$    & 0.004{\tiny$\pm$0.007} & 0.952{\tiny$\pm$0.007} & 0.802{\tiny$\pm$0.006} & 0.893{\tiny$\pm$0.008} \\
+    No level (176 feats)   & $f\!=\!10\%$ & 0.112{\tiny$\pm$0.059} & 0.948{\tiny$\pm$0.010} & 0.814{\tiny$\pm$0.012} & 0.950{\tiny$\pm$0.012} \\
+    \bottomrule
+  \end{tabular}
+\end{table}

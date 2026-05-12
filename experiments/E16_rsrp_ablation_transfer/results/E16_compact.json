@@ -1,0 +1,68 @@
+[
+  {
+    "subset": "all_240",
+    "n_features": 240,
+    "condition": "f10_calibrated",
+    "n_added_real": 18,
+    "f1": "0.962+-0.009",
+    "auroc": "0.998+-0.001",
+    "real_recall": "0.907+-0.063",
+    "synth_recall": "0.966+-0.011",
+    "normal_fpr": "0.001+-0.001"
+  },
+  {
+    "subset": "all_240",
+    "n_features": 240,
+    "condition": "synth_only",
+    "n_added_real": 0,
+    "f1": "0.810+-0.009",
+    "auroc": "0.882+-0.009",
+    "real_recall": "0.001+-0.005",
+    "synth_recall": "0.957+-0.016",
+    "normal_fpr": "0.001+-0.001"
+  },
+  {
+    "subset": "no_level",
+    "n_features": 176,
+    "condition": "f10_calibrated",
+    "n_added_real": 18,
+    "f1": "0.814+-0.012",
+    "auroc": "0.950+-0.012",
+    "real_recall": "0.112+-0.059",
+    "synth_recall": "0.948+-0.010",
+    "normal_fpr": "0.002+-0.001"
+  },
+  {
+    "subset": "no_level",
+    "n_features": 176,
+    "condition": "synth_only",
+    "n_added_real": 0,
+    "f1": "0.802+-0.006",
+    "auroc": "0.893+-0.008",
+    "real_recall": "0.004+-0.007",
+    "synth_recall": "0.952+-0.007",
+    "normal_fpr": "0.001+-0.001"
+  },
+  {
+    "subset": "no_rsrp",
+    "n_features": 225,
+    "condition": "f10_calibrated",
+    "n_added_real": 18,
+    "f1": "0.848+-0.017",
+    "auroc": "0.974+-0.008",
+    "real_recall": "0.281+-0.126",
+    "synth_recall": "0.960+-0.007",
+    "normal_fpr": "0.002+-0.001"
+  },
+  {
+    "subset": "no_rsrp",
+    "n_features": 225,
+    "condition": "synth_only",
+    "n_added_real": 0,
+    "f1": "0.807+-0.005",
+    "auroc": "0.904+-0.010",
+    "real_recall": "0.000+-0.000",
+    "synth_recall": "0.943+-0.011",
+    "normal_fpr": "0.000+-0.000"
+  }
+]

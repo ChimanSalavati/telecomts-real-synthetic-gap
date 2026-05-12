@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    name: Tests on Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install package and dev/api extras
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .[api,dev]
+
+      - name: Run unit tests
+        run: pytest tests/ -ra -q
+
+      - name: Smoke-test the telecomts-audit CLI
+        run: |
+          telecomts-audit --print-checklist | head -5
+          python -c "from telecomts_gap import origin_audit, calibration_budget, Verdict; print('package import OK')"
+
+      - name: Check converted notebook runners are in sync
+        run: python pipeline/convert_notebooks.py --check
+
+      - name: Offline pipeline smoke (synthetic corpus, no downloads, no GPU)
+        run: python main.py --all --preset smoke --quiet

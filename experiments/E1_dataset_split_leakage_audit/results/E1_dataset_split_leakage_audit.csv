@@ -1,0 +1,14 @@
+split,partition,n,n_normal,n_anomaly,n_real,n_synthetic
+small_natural,train,640,607,33,6,27
+small_natural,val,160,153,7,0,7
+small_natural,test,200,190,10,2,8
+balanced_detection,train,1580,790,790,163,627
+balanced_detection,val,396,198,198,50,148
+balanced_detection,test,494,247,247,66,181
+controlled_500,train,300,150,150,75,75
+controlled_500,val,100,50,50,25,25
+controlled_500,test,100,50,50,25,25
+fullscale,train,25600,24612,988,210,778
+fullscale,test,6400,6153,247,69,178
+split_rca_balanced,train,988,0,988,223,765
+split_rca_balanced,test,247,0,247,56,191

@@ -1,0 +1,17 @@
+{
+  "csv": "data/industrial_anomaly_1s.csv",
+  "origin_col": "anomaly_origin",
+  "feature_count": 203,
+  "result": {
+    "n_controlled_real": 0,
+    "n_synthetic": 109,
+    "c2st_accuracy": null,
+    "c2st_auroc": null,
+    "mmd_norm": null,
+    "mmd_p_value": null,
+    "bh_significant_features": null,
+    "n_features_tested": 203,
+    "verdict": "origin_incomplete_synthetic_only",
+    "notes": "Benchmark contains synthetic anomalies only (n=109); no controlled-real anomaly origin is labelled. The audit refuses to certify this benchmark for operational model selection. Operator gate: do not promote until (i) a controlled-real anomaly source is added, or (ii) operator-validated real tickets confirm precision/recall in shadow mode."
+  }
+}

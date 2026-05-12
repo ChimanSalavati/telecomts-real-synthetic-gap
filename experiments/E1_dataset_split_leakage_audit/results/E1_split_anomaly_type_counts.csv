@@ -1,0 +1,144 @@
+split,partition,anomaly_type,count
+small_natural,train,Jamming,6
+small_natural,train,High Network Congestion (Gradual Buildup),2
+small_natural,train,High Network Congestion (Sudden Spike),4
+small_natural,train,Co-Channel Interference (Severe),4
+small_natural,train,Co-Channel Interference (Mild),4
+small_natural,train,Faulty RF Filters (Temporal),2
+small_natural,train,Doppler Shift (Severe),1
+small_natural,train,Resource Allocation Bugs,2
+small_natural,train,Antenna Failure,4
+small_natural,train,Faulty Handover Algorithm (Too Frequent),1
+small_natural,train,Buffer Overflow (Gradual Buildup),3
+small_natural,val,Jamming,0
+small_natural,val,High Network Congestion (Gradual Buildup),0
+small_natural,val,High Network Congestion (Sudden Spike),0
+small_natural,val,Co-Channel Interference (Severe),1
+small_natural,val,Co-Channel Interference (Mild),2
+small_natural,val,Faulty RF Filters (Temporal),2
+small_natural,val,Doppler Shift (Severe),1
+small_natural,val,Resource Allocation Bugs,0
+small_natural,val,Antenna Failure,0
+small_natural,val,Faulty Handover Algorithm (Too Frequent),1
+small_natural,val,Buffer Overflow (Gradual Buildup),0
+small_natural,test,Jamming,2
+small_natural,test,High Network Congestion (Gradual Buildup),0
+small_natural,test,High Network Congestion (Sudden Spike),0
+small_natural,test,Co-Channel Interference (Severe),2
+small_natural,test,Co-Channel Interference (Mild),1
+small_natural,test,Faulty RF Filters (Temporal),1
+small_natural,test,Doppler Shift (Severe),0
+small_natural,test,Resource Allocation Bugs,0
+small_natural,test,Antenna Failure,1
+small_natural,test,Faulty Handover Algorithm (Too Frequent),2
+small_natural,test,Buffer Overflow (Gradual Buildup),1
+balanced_detection,train,Jamming,163
+balanced_detection,train,High Network Congestion (Gradual Buildup),66
+balanced_detection,train,High Network Congestion (Sudden Spike),25
+balanced_detection,train,Co-Channel Interference (Severe),74
+balanced_detection,train,Co-Channel Interference (Mild),92
+balanced_detection,train,Faulty RF Filters (Temporal),64
+balanced_detection,train,Doppler Shift (Severe),55
+balanced_detection,train,Resource Allocation Bugs,42
+balanced_detection,train,Antenna Failure,76
+balanced_detection,train,Faulty Handover Algorithm (Too Frequent),47
+balanced_detection,train,Buffer Overflow (Gradual Buildup),86
+balanced_detection,val,Jamming,50
+balanced_detection,val,High Network Congestion (Gradual Buildup),6
+balanced_detection,val,High Network Congestion (Sudden Spike),14
+balanced_detection,val,Co-Channel Interference (Severe),18
+balanced_detection,val,Co-Channel Interference (Mild),23
+balanced_detection,val,Faulty RF Filters (Temporal),13
+balanced_detection,val,Doppler Shift (Severe),19
+balanced_detection,val,Resource Allocation Bugs,9
+balanced_detection,val,Antenna Failure,11
+balanced_detection,val,Faulty Handover Algorithm (Too Frequent),12
+balanced_detection,val,Buffer Overflow (Gradual Buildup),23
+balanced_detection,test,Jamming,66
+balanced_detection,test,High Network Congestion (Gradual Buildup),21
+balanced_detection,test,High Network Congestion (Sudden Spike),9
+balanced_detection,test,Co-Channel Interference (Severe),22
+balanced_detection,test,Co-Channel Interference (Mild),31
+balanced_detection,test,Faulty RF Filters (Temporal),23
+balanced_detection,test,Doppler Shift (Severe),12
+balanced_detection,test,Resource Allocation Bugs,9
+balanced_detection,test,Antenna Failure,20
+balanced_detection,test,Faulty Handover Algorithm (Too Frequent),5
+balanced_detection,test,Buffer Overflow (Gradual Buildup),29
+controlled_500,train,Jamming,75
+controlled_500,train,High Network Congestion (Gradual Buildup),5
+controlled_500,train,High Network Congestion (Sudden Spike),0
+controlled_500,train,Co-Channel Interference (Severe),14
+controlled_500,train,Co-Channel Interference (Mild),15
+controlled_500,train,Faulty RF Filters (Temporal),10
+controlled_500,train,Doppler Shift (Severe),8
+controlled_500,train,Resource Allocation Bugs,4
+controlled_500,train,Antenna Failure,5
+controlled_500,train,Faulty Handover Algorithm (Too Frequent),6
+controlled_500,train,Buffer Overflow (Gradual Buildup),8
+controlled_500,val,Jamming,25
+controlled_500,val,High Network Congestion (Gradual Buildup),4
+controlled_500,val,High Network Congestion (Sudden Spike),2
+controlled_500,val,Co-Channel Interference (Severe),2
+controlled_500,val,Co-Channel Interference (Mild),2
+controlled_500,val,Faulty RF Filters (Temporal),2
+controlled_500,val,Doppler Shift (Severe),1
+controlled_500,val,Resource Allocation Bugs,1
+controlled_500,val,Antenna Failure,4
+controlled_500,val,Faulty Handover Algorithm (Too Frequent),2
+controlled_500,val,Buffer Overflow (Gradual Buildup),5
+controlled_500,test,Jamming,25
+controlled_500,test,High Network Congestion (Gradual Buildup),4
+controlled_500,test,High Network Congestion (Sudden Spike),2
+controlled_500,test,Co-Channel Interference (Severe),4
+controlled_500,test,Co-Channel Interference (Mild),3
+controlled_500,test,Faulty RF Filters (Temporal),1
+controlled_500,test,Doppler Shift (Severe),0
+controlled_500,test,Resource Allocation Bugs,2
+controlled_500,test,Antenna Failure,3
+controlled_500,test,Faulty Handover Algorithm (Too Frequent),4
+controlled_500,test,Buffer Overflow (Gradual Buildup),2
+fullscale,train,Jamming,210
+fullscale,train,High Network Congestion (Gradual Buildup),74
+fullscale,train,High Network Congestion (Sudden Spike),36
+fullscale,train,Co-Channel Interference (Severe),93
+fullscale,train,Co-Channel Interference (Mild),125
+fullscale,train,Faulty RF Filters (Temporal),83
+fullscale,train,Doppler Shift (Severe),71
+fullscale,train,Resource Allocation Bugs,52
+fullscale,train,Antenna Failure,82
+fullscale,train,Faulty Handover Algorithm (Too Frequent),48
+fullscale,train,Buffer Overflow (Gradual Buildup),114
+fullscale,test,Jamming,69
+fullscale,test,High Network Congestion (Gradual Buildup),19
+fullscale,test,High Network Congestion (Sudden Spike),12
+fullscale,test,Co-Channel Interference (Severe),21
+fullscale,test,Co-Channel Interference (Mild),21
+fullscale,test,Faulty RF Filters (Temporal),17
+fullscale,test,Doppler Shift (Severe),15
+fullscale,test,Resource Allocation Bugs,8
+fullscale,test,Antenna Failure,25
+fullscale,test,Faulty Handover Algorithm (Too Frequent),16
+fullscale,test,Buffer Overflow (Gradual Buildup),24
+split_rca_balanced,train,Jamming,223
+split_rca_balanced,train,High Network Congestion (Gradual Buildup),74
+split_rca_balanced,train,High Network Congestion (Sudden Spike),38
+split_rca_balanced,train,Co-Channel Interference (Severe),91
+split_rca_balanced,train,Co-Channel Interference (Mild),117
+split_rca_balanced,train,Faulty RF Filters (Temporal),80
+split_rca_balanced,train,Doppler Shift (Severe),69
+split_rca_balanced,train,Resource Allocation Bugs,48
+split_rca_balanced,train,Antenna Failure,86
+split_rca_balanced,train,Faulty Handover Algorithm (Too Frequent),51
+split_rca_balanced,train,Buffer Overflow (Gradual Buildup),111
+split_rca_balanced,test,Jamming,56
+split_rca_balanced,test,High Network Congestion (Gradual Buildup),19
+split_rca_balanced,test,High Network Congestion (Sudden Spike),10
+split_rca_balanced,test,Co-Channel Interference (Severe),23
+split_rca_balanced,test,Co-Channel Interference (Mild),29
+split_rca_balanced,test,Faulty RF Filters (Temporal),20
+split_rca_balanced,test,Doppler Shift (Severe),17
+split_rca_balanced,test,Resource Allocation Bugs,12
+split_rca_balanced,test,Antenna Failure,21
+split_rca_balanced,test,Faulty Handover Algorithm (Too Frequent),13
+split_rca_balanced,test,Buffer Overflow (Gradual Buildup),27

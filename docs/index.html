@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TelecomAudit — Origin-Aware Benchmark Auditing for 5G Anomaly Detection</title>
+<meta name="description" content="TelecomAudit: a deployment-oriented, origin-aware benchmark-auditing and calibration toolkit for 5G/Open RAN anomaly detection. CIKM 2026 Applied Research Track." />
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2a3340;
+    --fg:#e6edf3; --muted:#9aa7b4; --accent:#3fb6ff; --accent2:#7ee787; --warn:#ffb454;
+    --maxw:980px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+  header.hero{padding:64px 0 40px;border-bottom:1px solid var(--border);
+    background:radial-gradient(1200px 400px at 50% -120px,rgba(63,182,255,.16),transparent)}
+  .badge{display:inline-block;font-size:13px;color:var(--accent2);
+    border:1px solid var(--border);border-radius:999px;padding:4px 12px;margin-bottom:18px;background:var(--panel)}
+  h1{font-size:2.1rem;line-height:1.2;margin:.2em 0}
+  .sub{color:var(--muted);font-size:1.05rem;max-width:760px}
+  .authors{margin:18px 0 6px;font-size:.98rem}
+  .affil{color:var(--muted);font-size:.9rem}
+  .cta{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid var(--border);
+    background:var(--panel);color:var(--fg);font-weight:600}
+  .btn.primary{background:var(--accent);color:#04223a;border-color:transparent}
+  .btn:hover{text-decoration:none;border-color:var(--accent)}
+  section{padding:46px 0;border-bottom:1px solid var(--border)}
+  h2{font-size:1.5rem;margin:0 0 14px}
+  h3{font-size:1.05rem;margin:22px 0 8px}
+  p{color:#cdd9e5}
+  .grid{display:grid;gap:16px}
+  .cards{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px}
+  .metric{font-size:2rem;font-weight:700;color:var(--accent2)}
+  .metric small{display:block;color:var(--muted);font-size:.8rem;font-weight:400;margin-top:6px}
+  ul.tight li{margin:.3em 0}
+  figure{margin:0;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px;display:flex;flex-direction:column}
+  /* Uniform figure frames: identical box, each plot centered & contained on
+     white so differing source aspect ratios never distort or look mismatched. */
+  figure img{width:100%;aspect-ratio:3/2;object-fit:contain;background:#fff;border:0;border-radius:8px;display:block;padding:8px}
+  figure a{display:block;line-height:0}
+  figcaption{color:var(--muted);font-size:.88rem;margin-top:10px}
+  .figgrid{grid-template-columns:repeat(auto-fit,minmax(330px,1fr));margin-bottom:10px}
+  .tag{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+    padding:2px 8px;border-radius:6px;margin-right:7px;vertical-align:middle}
+  .tag.gap{background:rgba(63,182,255,.16);color:var(--accent)}
+  .tag.fail{background:rgba(255,180,84,.16);color:var(--warn)}
+  .tag.fix{background:rgba(126,231,135,.16);color:var(--accent2)}
+  table{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:8px;display:block;overflow-x:auto}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);white-space:nowrap}
+  th{color:var(--muted);font-weight:600}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  pre{background:#0b0f14;border:1px solid var(--border);border-radius:12px;padding:16px;overflow-x:auto;font-size:.86rem;color:#d6e2ee}
+  code{background:var(--panel2);padding:.1em .4em;border-radius:6px;font-size:.86em}
+  pre code{background:none;padding:0}
+  .pill{display:inline-block;font-size:.74rem;color:var(--warn);border:1px solid var(--border);border-radius:6px;padding:1px 7px;margin-left:6px}
+  footer{padding:36px 0 60px;color:var(--muted);font-size:.9rem}
+  .lead{font-size:1.08rem;color:#dbe6f0}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <span class="badge">CIKM 2026 · Applied Research Track</span>
+  <h1>TelecomAudit: Origin-Aware Benchmark Auditing and Calibration for 5G Anomaly Detection</h1>
+  <p class="sub">A deployment-oriented audit that asks whether benchmark anomalies actually cover
+  the operating regimes of controlled-real 5G/Open RAN faults — and a calibration recipe and
+  toolkit that repair the gap when they don't.</p>
+  <div class="authors">Chiman Salavati · Liang Wu · Kelly Wan · Mayank Darbari · Liangjie Hong</div>
+  <div class="affil">University of Connecticut · Nokia</div>
+  <div class="cta">
+    <a class="btn primary" href="assets/TelecomAudit_CIKM2026.pdf">Read the paper (PDF)</a>
+    <a class="btn" href="https://github.com/ChimanSalavati/telecomts-real-synthetic-gap">Code &amp; artifacts</a>
+    <a class="btn" href="#deployment">Deployment</a>
+    <a class="btn" href="#reproduce">Reproduce</a>
+  </div>
+</div></header>
+
+<section><div class="wrap">
+  <h2>Abstract</h2>
+  <p class="lead">Many telecom anomaly detectors are trained and evaluated on injected, generated, or
+  simulated anomalies, raising a deployment question: can strong synthetic-benchmark performance be
+  trusted for operational detector selection?</p>
+  <p>We operationalize <strong>origin-aware benchmark auditing</strong>: a deployment-oriented evaluation
+  workflow that conditions evaluation on anomaly origin. Across two public 5G/Open RAN testbed corpora
+  (TelecomTS and SpotLight), the audit exposes an operational failure hidden by aggregate metrics —
+  synthetic-only training can keep strong synthetic-anomaly performance while missing controlled-real
+  fault regimes at deployment-relevant operating conditions. We show this reflects an operating-regime
+  coverage gap rather than a model-specific limitation or feature leakage, and that modest controlled-real
+  calibration substantially improves controlled-real detection where extra synthetic data, extra normal
+  data, and synthetic reweighting do not. We release a reproducible toolkit, an operator checklist, and a
+  pre-production shadow-mode CI gate integrated inside Nokia's anomaly-detection pipeline.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Key findings</h2>
+
+  <div class="card" style="border-left:4px solid var(--accent);margin-bottom:22px">
+    <p class="lead" style="margin:0">
+      <strong>Strong synthetic-benchmark performance does not imply a detector will catch real faults.</strong>
+      At the natural 3.9% anomaly rate, synthetic-only training reaches aggregate
+      <strong>F1 0.81 / AUROC 0.88</strong> — while detecting <strong>0% of controlled-real Jamming</strong>.
+      The failure is an <em>operating-regime coverage gap</em>, not a model defect: it holds across
+      <strong>11 detector families</strong> (including frozen foundation models), survives RSRP /
+      level / context-matched ablations, and <strong>replicates on a second, independent Open RAN
+      corpus</strong>. Standard covariate-shift correction cannot repair it — yet
+      <strong>18 controlled-real windows lift recall from ~0 to 0.93</strong>.
+    </p>
+  </div>
+
+  <div class="grid cards">
+    <div class="card"><div class="metric">0%<small>controlled-real recall at the natural rate — while aggregate F1 = 0.81 / AUROC = 0.88 look acceptable (Table 2). Aggregate metrics hide the failure.</small></div></div>
+    <div class="card"><div class="metric">~0 → 0.93<small>controlled-real recall after adding just <strong>18</strong> controlled-real windows (f = 10%); saturates at 1.00 by 25% (Table 5).</small></div></div>
+    <div class="card"><div class="metric">d = 3.17<small>RSRP effect size between origins (−76 vs −109 dBm); C2ST = 1.000, MMD p &lt; 10⁻³ — origins are perfectly separable (§3.4).</small></div></div>
+    <div class="card"><div class="metric">2 corpora<small>TelecomTS &amp; SpotLight, across tabular, foundation, and deep detectors — the gap is corpus- and model-independent.</small></div></div>
+  </div>
+
+  <h3>The failure aggregate metrics hide</h3>
+  <p>Synthetic-only training at the natural 3.9% rate (full-scale TelecomTS, mean over 10 seeds).
+  Synthetic-anomaly recall stays high; <strong>controlled-real recall collapses to ≈0%</strong> —
+  even for frozen foundation-model encoders and deep time-series models.</p>
+  <table>
+    <tr><th>Detector</th><th>F1</th><th>AUROC</th><th>Synthetic recall</th><th>Controlled-real recall</th></tr>
+    <tr><td>HGB (tabular)</td><td>0.81</td><td>0.88</td><td>96%</td><td><strong>0%</strong></td></tr>
+    <tr><td>XGBoost (tabular)</td><td>0.82</td><td>0.83</td><td>97%</td><td><strong>0%</strong></td></tr>
+    <tr><td>Toto — frozen foundation model</td><td>0.59</td><td>0.88</td><td>68%</td><td><strong>0%</strong></td></tr>
+    <tr><td>PatchTST (deep, end-to-end)</td><td>0.64</td><td>0.81</td><td>73%</td><td><strong>0%</strong></td></tr>
+    <tr><td>TimesNet (deep, end-to-end)</td><td>0.36</td><td>0.76</td><td>39%</td><td><strong>0%</strong></td></tr>
+  </table>
+  <p style="color:var(--muted);font-size:.88rem">Representative rows from Table 2 (11 detectors total: 6 tabular + 5 deep/foundation).</p>
+
+  <h3>Only controlled-real calibration repairs it</h3>
+  <p>Controlled-real recall on TelecomTS at a fixed 18-window (f = 10%) budget. Density-ratio
+  reweighting — the standard covariate-shift remedy — does <strong>not</strong> recover recall,
+  because it can only reweight support the synthetic pool already has.</p>
+  <table>
+    <tr><th>Method</th><th>Controlled-real recall</th></tr>
+    <tr><td>Synthetic-only baseline</td><td>0.00</td></tr>
+    <tr><td>Importance weighting — LR density ratio (Sugiyama 2007)</td><td>0.00</td></tr>
+    <tr><td>uLSIF covariate-shift correction (Kanamori 2009)</td><td>0.01</td></tr>
+    <tr><td><strong>+ 18 controlled-real windows (f = 10%, ours)</strong></td><td><strong>0.93</strong></td></tr>
+  </table>
+  <p style="color:var(--muted);font-size:.88rem">Table 4. On SpotLight the same recipe holds: 52 controlled-real Radio windows recover Radio recall to 0.83 (Table 6).</p>
+
+  <h3>Contributions</h3>
+  <ul class="tight">
+    <li><strong>A hidden failure mode.</strong> Synthetic-only training preserves synthetic-anomaly recall while missing controlled-real faults entirely — invisible to aggregate F1/AUROC.</li>
+    <li><strong>A diagnosis, not just an observation.</strong> The failure is an operating-regime coverage gap, proven via C2ST/MMD and RSRP/level/context-matched ablations — not feature leakage or recorded context mismatch.</li>
+    <li><strong>A repair with a budget.</strong> Modest controlled-real calibration restores recall where additional synthetic data, additional normal data, and density-ratio reweighting do not.</li>
+    <li><strong>Generality.</strong> The finding replicates across 11 detector families and two independent 5G/Open RAN testbeds, with a different dominant KPI axis on each.</li>
+    <li><strong>Deployment impact.</strong> A released, MIT-licensed audit toolkit + operator checklist, validated as a pre-production shadow-mode CI gate inside Nokia's anomaly-detection pipeline (&lt; 1 µs/inference overhead).</li>
+  </ul>
+</div></section>
+
+<section id="figures"><div class="wrap">
+  <h2>Figure gallery</h2>
+  <p>Organized along the audit narrative — <strong>distributional gap → transfer failure →
+  calibration repair</strong> — for both public 5G/Open RAN testbeds. Tags mark each figure's
+  role. Click any figure for the full-resolution PDF.</p>
+
+  <h3>TelecomTS</h3>
+  <div class="grid figgrid">
+    <figure>
+      <a href="assets/E2_feature_space_pca_tsne.pdf" title="Open PDF"><img src="assets/tts_pca_tsne.png" alt="PCA/t-SNE of KPI-summary feature space by anomaly origin"></a>
+      <figcaption><span class="tag gap">Distributional gap</span> Controlled-real and synthetic anomalies separate cleanly in the 240-D KPI-summary feature space (PCA / t-SNE).</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/E2_top_kpi_effect_sizes.pdf" title="Open PDF"><img src="assets/tts_kpi_effect_sizes.png" alt="Top per-KPI effect sizes between origins"></a>
+      <figcaption><span class="tag gap">Distributional gap</span> Per-KPI effect sizes (Cohen's d) between origins — RSRP dominates (d ≈ 3.17).</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/E17_rsrp_per_type_distribution.pdf" title="Open PDF"><img src="assets/tts_rsrp_per_type.png" alt="Per-anomaly-type RSRP distributions"></a>
+      <figcaption><span class="tag gap">Distributional gap</span> Per-anomaly-type RSRP distributions — controlled-real Jamming occupies a distinct high-RSRP operating regime <em>(paper Fig. 1)</em>.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/E9b_leave_one_out_recall.pdf" title="Open PDF"><img src="assets/tts_leave_one_out.png" alt="Leave-one-anomaly-out recall"></a>
+      <figcaption><span class="tag fail">Transfer failure</span> Leave-one-anomaly-out recall — only the controlled-real origin collapses; synthetic types remain recoverable <em>(paper Fig. 3a)</em>.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/E4_paper_optionA_with_controls.pdf" title="Open PDF"><img src="assets/tts_calibration_sweep.png" alt="Controlled-real calibration sweep with controls"></a>
+      <figcaption><span class="tag fix">Calibration repair</span> Calibration sweep with matched-budget controls — only controlled-real calibration recovers recall (~0 → 0.93 at 18 windows) <em>(paper Fig. 2)</em>.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/E9b_calibration_minisweep.pdf" title="Open PDF"><img src="assets/tts_calibration_minisweep.png" alt="Per-type calibration mini-sweep"></a>
+      <figcaption><span class="tag fix">Calibration repair</span> Calibration mini-sweep — adding controlled-real windows selectively repairs the collapsed Jamming type <em>(paper Fig. 3b)</em>.</figcaption>
+    </figure>
+  </div>
+
+  <h3>SpotLight (Open RAN) — cross-corpus replication</h3>
+  <p style="color:var(--muted);font-size:.92rem;margin-top:-4px">An independent testbed where the dominant separating signal is the layer-2 RLC-timer family rather than RSRP — yet the same gap and the same repair hold.</p>
+  <div class="grid figgrid">
+    <figure>
+      <a href="assets/S1_top_kpi_effect_sizes.pdf" title="Open PDF"><img src="assets/spot_kpi_effect_sizes.png" alt="SpotLight per-channel effect sizes between origins"></a>
+      <figcaption><span class="tag gap">Distributional gap</span> Per-channel effect sizes between origins on SpotLight — separation is led by RLC-timer counters, not RSRP.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/S2_spotlight_calibration_curve.pdf" title="Open PDF"><img src="assets/spot_calibration.png" alt="SpotLight calibration replication curve"></a>
+      <figcaption><span class="tag fix">Calibration repair</span> Calibration replication — 52 controlled-real Radio windows recover Radio recall to 0.83; the recipe generalizes across corpora.</figcaption>
+    </figure>
+  </div>
+</div></section>
+
+<section id="deployment"><div class="wrap">
+  <h2>Deployment</h2>
+  <p>TelecomAudit is an applied, deployment-oriented <em>benchmark-auditing gate</em>, not a new detector.
+  It runs three ways from one core, all validated in the Nokia pre-production integration (§5.2).
+  Full guide: <a href="https://github.com/ChimanSalavati/telecomts-real-synthetic-gap/blob/main/deployment/README.md">deployment/README.md</a>.</p>
+  <h3>CI gate (exit code 0 only on <code>pass</code>)</h3>
+<pre><code>telecomts-audit --csv data/benchmark.csv --synthetic-only-from-flag \
+  --output evidence/audit_verdict.json   # non-zero exit blocks promotion</code></pre>
+  <h3>Shadow-mode HTTP service</h3>
+<pre><code>docker compose up --build
+curl localhost:8765/audit/health
+curl -F "file=@data/benchmark.csv" localhost:8765/audit/origin</code></pre>
+  <h3>Measured Nokia pre-production impact (§5.2)</h3>
+  <p>On a 3,958-window / 203-feature internal timing-flow benchmark, origin-aware auditing
+  <strong>changes the deployment decision</strong>:</p>
+  <table>
+    <tr><th>Reporting lens</th><th>Numbers</th><th>Decision</th></tr>
+    <tr><td>Aggregate (status quo)</td><td>AUROC ≈ 0.99, F1 ≈ 0.77 (natural); F1 ≈ 0.92 (balanced)</td><td>accept</td></tr>
+    <tr><td>Origin-aware (ours)</td><td>all anomalies synthetic → <code>origin_incomplete_synthetic_only</code></td><td><strong>hold in shadow</strong></td></tr>
+  </table>
+  <ul class="tight">
+    <li>Data-sanity diagnostic: C2ST 0.992, AUROC 0.996, MMD 78.1×, p=0.002 (166 BH-significant features).</li>
+    <li>Ran as a CI gate over 4 CSVs / 15,376 windows / 4.27 h; held all 3 candidate detectors in shadow; flagged the baseline-traffic CSV as <code>no_anomalies_present</code>.</li>
+    <li>Median audit time 0.15 s / CSV (p95 0.21 s); service-path overhead &lt; 1 µs / inference; audit runs once per benchmark refresh, off the hot path.</li>
+  </ul>
+  <p>Every number is reproducible from an operator per-flow CSV — see
+  <a href="https://github.com/ChimanSalavati/telecomts-real-synthetic-gap/tree/main/evidence/industrial">evidence/industrial/</a>.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Paper artifact map</h2>
+  <p>Every table and figure maps to one experiment, runnable through <code>main.py</code>.</p>
+  <table>
+    <tr><th>Artifact</th><th>Experiment</th><th>Run</th></tr>
+    <tr><td>Table 1 — audit partitions</td><td>E1</td><td><code>python main.py -e E1</code></td></tr>
+    <tr><td>Table 2 — detector robustness</td><td>E9 + E14 <span class="pill">gpu</span></td><td><code>python main.py -e E9 -e E14 --with-gpu</code></td></tr>
+    <tr><td>Table 3 — feature ablation</td><td>E16</td><td><code>python main.py -e E16</code></td></tr>
+    <tr><td>Table 4 — covariate-shift baselines</td><td>E18</td><td><code>python main.py -e E18</code></td></tr>
+    <tr><td>Table 5 — calibration sweep CI</td><td>E4</td><td><code>python main.py -e E4</code></td></tr>
+    <tr><td>Table 6 — SpotLight calibration</td><td>S2 <span class="pill">data</span></td><td><code>python main.py -e S2</code></td></tr>
+    <tr><td>Table 7 — SpotLight detectors</td><td>S3 <span class="pill">gpu/data</span></td><td><code>python main.py -e S3 --with-gpu</code></td></tr>
+    <tr><td>Table 8 — applied evidence</td><td>evidence/industrial</td><td>—</td></tr>
+    <tr><td>Figure 1 — per-type RSRP</td><td>E17</td><td><code>python main.py -e E17</code></td></tr>
+    <tr><td>Figure 2 — calibration sweep</td><td>E4</td><td><code>python main.py -e E4</code></td></tr>
+    <tr><td>Figure 3 — leave-one-out</td><td>E9b</td><td><code>python main.py -e E9b</code></td></tr>
+  </table>
+</div></section>
+
+<section id="reproduce"><div class="wrap">
+  <h2>Reproduce</h2>
+<pre><code>git clone https://github.com/ChimanSalavati/telecomts-real-synthetic-gap.git
+cd telecomts-real-synthetic-gap
+python -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -e ".[api,dev]"
+
+python main.py --list                 # see all experiments + benchmarks
+python main.py --all --preset smoke    # offline synthetic, no downloads/GPU
+python main.py --benchmark telecomts --preset paper   # full reproduction</code></pre>
+  <p>A single configurable runner with <code>paper</code> / <code>quick</code> / <code>smoke</code> presets
+  and full CLI override writes all outputs to a centralized <code>artifacts/</code> tree. The public CPU set
+  reproduces in ~30 minutes without a GPU. Logs:
+  <a href="https://github.com/ChimanSalavati/telecomts-real-synthetic-gap/blob/main/REPRODUCTION_LOG.md">REPRODUCTION_LOG.md</a>.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Citation</h2>
+<pre><code>@inproceedings{salavati2026telecomaudit,
+  title     = {TelecomAudit: Origin-Aware Benchmark Auditing and Calibration for 5G Anomaly Detection},
+  author    = {Salavati, Chiman and Wu, Liang and Wan, Kelly and Darbari, Mayank and Hong, Liangjie},
+  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26)},
+  year      = {2026}
+}</code></pre>
+</div></section>
+
+<footer><div class="wrap">
+  MIT-licensed research artifact ·
+  <a href="https://github.com/ChimanSalavati/telecomts-real-synthetic-gap">GitHub</a> ·
+  <a href="assets/TelecomAudit_CIKM2026.pdf">Paper PDF</a> ·
+  TelecomTS (arXiv:2510.06063) &amp; SpotLight (MobiCom 2024) corpora.
+</div></footer>
+</body>
+</html>

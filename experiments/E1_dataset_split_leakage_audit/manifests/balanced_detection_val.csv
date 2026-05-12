@@ -1,0 +1,397 @@
+sample_id,split,partition,y,anomaly_type,anomaly_origin,zone,application,mobility,congestion
+1150,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+5029,balanced_detection,val,0,,normal,A,File,No,No
+30555,balanced_detection,val,0,,normal,C,Youtube,No,No
+12399,balanced_detection,val,0,,normal,B,File,No,Yes
+985,balanced_detection,val,1,Doppler Shift (Severe),synthetic,C,File,No,No
+29480,balanced_detection,val,0,,normal,C,Youtube,No,No
+15311,balanced_detection,val,0,,normal,B,File,No,No
+1041,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,C,Twitch,No,No
+426,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Twitch,No,No
+987,balanced_detection,val,1,Antenna Failure,synthetic,C,File,No,No
+25599,balanced_detection,val,0,,normal,C,File,No,No
+16672,balanced_detection,val,0,,normal,B,Twitch,No,No
+94,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+79,balanced_detection,val,1,Jamming,real,A,File,No,No
+1188,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+28589,balanced_detection,val,0,,normal,C,Twitch,No,No
+1210,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+22877,balanced_detection,val,0,,normal,C,Youtube,No,Yes
+23826,balanced_detection,val,0,,normal,C,File,No,No
+53,balanced_detection,val,1,Jamming,real,A,File,No,No
+875,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+23914,balanced_detection,val,0,,normal,C,File,No,No
+729,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+11424,balanced_detection,val,0,,normal,A,Youtube,No,No
+234,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+22915,balanced_detection,val,0,,normal,C,Youtube,No,Yes
+29273,balanced_detection,val,0,,normal,C,Youtube,No,No
+18569,balanced_detection,val,0,,normal,B,Twitch,No,No
+12,balanced_detection,val,1,Jamming,real,A,File,No,No
+363,balanced_detection,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+16764,balanced_detection,val,0,,normal,B,Twitch,No,No
+263,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+1187,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+23409,balanced_detection,val,0,,normal,C,File,No,No
+850,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+31504,balanced_detection,val,0,,normal,C,Youtube,No,No
+30970,balanced_detection,val,0,,normal,C,Youtube,No,No
+595,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+924,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+791,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+2584,balanced_detection,val,0,,normal,A,Twitch,No,Yes
+479,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+259,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+972,balanced_detection,val,1,Doppler Shift (Severe),synthetic,C,File,No,No
+340,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1176,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+136,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+1070,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+1087,balanced_detection,val,1,Doppler Shift (Severe),synthetic,C,Twitch,No,No
+758,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+514,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+1,balanced_detection,val,1,Jamming,real,A,File,No,No
+606,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+31614,balanced_detection,val,0,,normal,C,Youtube,No,No
+16794,balanced_detection,val,0,,normal,B,Twitch,No,No
+680,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+17644,balanced_detection,val,0,,normal,B,Twitch,No,No
+1047,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+1398,balanced_detection,val,0,,normal,In motion,File,Yes,No
+546,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+4735,balanced_detection,val,0,,normal,A,File,No,No
+19662,balanced_detection,val,0,,normal,B,Youtube,No,No
+6214,balanced_detection,val,0,,normal,A,Twitch,No,No
+26100,balanced_detection,val,0,,normal,C,Twitch,No,No
+25543,balanced_detection,val,0,,normal,C,File,No,No
+833,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+132,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+24414,balanced_detection,val,0,,normal,C,File,No,No
+395,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+629,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+98,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+874,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+425,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+23029,balanced_detection,val,0,,normal,C,File,No,No
+23695,balanced_detection,val,0,,normal,C,File,No,No
+905,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+767,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+18328,balanced_detection,val,0,,normal,B,Twitch,No,No
+793,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+30273,balanced_detection,val,0,,normal,C,Youtube,No,No
+753,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+31195,balanced_detection,val,0,,normal,C,Youtube,No,No
+1222,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+38,balanced_detection,val,1,Jamming,real,A,File,No,No
+25303,balanced_detection,val,0,,normal,C,File,No,No
+518,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+23881,balanced_detection,val,0,,normal,C,File,No,No
+29026,balanced_detection,val,0,,normal,C,Youtube,No,No
+30222,balanced_detection,val,0,,normal,C,Youtube,No,No
+78,balanced_detection,val,1,Jamming,real,A,File,No,No
+640,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+29499,balanced_detection,val,0,,normal,C,Youtube,No,No
+1114,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+14028,balanced_detection,val,0,,normal,B,File,No,No
+28936,balanced_detection,val,0,,normal,C,Twitch,No,No
+148,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+11587,balanced_detection,val,0,,normal,A,Youtube,No,No
+151,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+332,balanced_detection,val,1,Resource Allocation Bugs,synthetic,A,File,No,No
+21604,balanced_detection,val,0,,normal,B,Youtube,No,No
+26541,balanced_detection,val,0,,normal,C,Twitch,No,No
+578,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+10400,balanced_detection,val,0,,normal,A,Youtube,No,No
+610,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+23660,balanced_detection,val,0,,normal,C,File,No,No
+19838,balanced_detection,val,0,,normal,B,Youtube,No,No
+13409,balanced_detection,val,0,,normal,B,File,No,No
+4643,balanced_detection,val,0,,normal,A,File,No,No
+765,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+26009,balanced_detection,val,0,,normal,C,Twitch,No,No
+5540,balanced_detection,val,0,,normal,A,File,No,No
+15924,balanced_detection,val,0,,normal,B,File,No,No
+31953,balanced_detection,val,0,,normal,C,Youtube,No,No
+30112,balanced_detection,val,0,,normal,C,Youtube,No,No
+2047,balanced_detection,val,0,,normal,In motion,Youtube,Yes,No
+31856,balanced_detection,val,0,,normal,C,Youtube,No,No
+29921,balanced_detection,val,0,,normal,C,Youtube,No,No
+285,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,File,No,No
+16555,balanced_detection,val,0,,normal,B,Twitch,No,No
+273,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+4257,balanced_detection,val,0,,normal,A,File,No,No
+48,balanced_detection,val,1,Jamming,real,A,File,No,No
+745,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+14183,balanced_detection,val,0,,normal,B,File,No,No
+1010,balanced_detection,val,1,Antenna Failure,synthetic,C,File,No,No
+12745,balanced_detection,val,0,,normal,B,Youtube,No,Yes
+795,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+7,balanced_detection,val,1,Jamming,real,A,File,No,No
+9960,balanced_detection,val,0,,normal,A,Youtube,No,No
+10028,balanced_detection,val,0,,normal,A,Youtube,No,No
+7299,balanced_detection,val,0,,normal,A,Twitch,No,No
+217,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+12286,balanced_detection,val,0,,normal,B,File,No,Yes
+965,balanced_detection,val,1,Antenna Failure,synthetic,C,File,No,No
+794,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+30956,balanced_detection,val,0,,normal,C,Youtube,No,No
+1095,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+1066,balanced_detection,val,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+387,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+942,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+12482,balanced_detection,val,0,,normal,B,Twitch,No,Yes
+755,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+166,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+8548,balanced_detection,val,0,,normal,A,Twitch,No,No
+632,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+530,balanced_detection,val,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+23320,balanced_detection,val,0,,normal,C,File,No,No
+2768,balanced_detection,val,0,,normal,A,Twitch,No,Yes
+12312,balanced_detection,val,0,,normal,B,File,No,Yes
+896,balanced_detection,val,1,Antenna Failure,synthetic,C,File,No,No
+723,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+22633,balanced_detection,val,0,,normal,C,Twitch,No,Yes
+5891,balanced_detection,val,0,,normal,A,File,No,No
+4512,balanced_detection,val,0,,normal,A,File,No,No
+899,balanced_detection,val,1,Antenna Failure,synthetic,C,File,No,No
+213,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+35,balanced_detection,val,1,Jamming,real,A,File,No,No
+634,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+239,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+186,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+113,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+365,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+12246,balanced_detection,val,0,,normal,B,File,No,Yes
+26924,balanced_detection,val,0,,normal,C,Twitch,No,No
+1071,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+13777,balanced_detection,val,0,,normal,B,File,No,No
+876,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+23744,balanced_detection,val,0,,normal,C,File,No,No
+202,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+13935,balanced_detection,val,0,,normal,B,File,No,No
+16291,balanced_detection,val,0,,normal,B,Twitch,No,No
+1174,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+754,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+969,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+96,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+147,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+832,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+1228,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+1157,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+23495,balanced_detection,val,0,,normal,C,File,No,No
+11519,balanced_detection,val,0,,normal,A,Youtube,No,No
+192,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+13779,balanced_detection,val,0,,normal,B,File,No,No
+25187,balanced_detection,val,0,,normal,C,File,No,No
+31183,balanced_detection,val,0,,normal,C,Youtube,No,No
+22430,balanced_detection,val,0,,normal,C,Twitch,No,Yes
+841,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+15195,balanced_detection,val,0,,normal,B,File,No,No
+22316,balanced_detection,val,0,,normal,C,File,No,Yes
+22195,balanced_detection,val,0,,normal,C,File,No,Yes
+268,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+5914,balanced_detection,val,0,,normal,A,File,No,No
+473,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1146,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+394,balanced_detection,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+804,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+13674,balanced_detection,val,0,,normal,B,File,No,No
+22353,balanced_detection,val,0,,normal,C,File,No,Yes
+224,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+3922,balanced_detection,val,0,,normal,A,File,No,No
+1098,balanced_detection,val,1,Antenna Failure,synthetic,C,Twitch,No,No
+25311,balanced_detection,val,0,,normal,C,File,No,No
+15280,balanced_detection,val,0,,normal,B,File,No,No
+22271,balanced_detection,val,0,,normal,C,File,No,Yes
+1122,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+26881,balanced_detection,val,0,,normal,C,Twitch,No,No
+369,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+312,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,File,No,No
+396,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+701,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+4385,balanced_detection,val,0,,normal,A,File,No,No
+19869,balanced_detection,val,0,,normal,B,Youtube,No,No
+1180,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+28969,balanced_detection,val,0,,normal,C,Twitch,No,No
+20971,balanced_detection,val,0,,normal,B,Youtube,No,No
+17182,balanced_detection,val,0,,normal,B,Twitch,No,No
+1200,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+10165,balanced_detection,val,0,,normal,A,Youtube,No,No
+388,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+501,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+267,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+685,balanced_detection,val,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1159,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,C,Youtube,No,No
+302,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,File,No,No
+19945,balanced_detection,val,0,,normal,B,Youtube,No,No
+18911,balanced_detection,val,0,,normal,B,Twitch,No,No
+22300,balanced_detection,val,0,,normal,C,File,No,Yes
+26682,balanced_detection,val,0,,normal,C,Twitch,No,No
+6624,balanced_detection,val,0,,normal,A,Twitch,No,No
+6872,balanced_detection,val,0,,normal,A,Twitch,No,No
+18856,balanced_detection,val,0,,normal,B,Twitch,No,No
+297,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+947,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+759,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+4237,balanced_detection,val,0,,normal,A,File,No,No
+381,balanced_detection,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+18084,balanced_detection,val,0,,normal,B,Twitch,No,No
+29702,balanced_detection,val,0,,normal,C,Youtube,No,No
+434,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+773,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+18136,balanced_detection,val,0,,normal,B,Twitch,No,No
+19911,balanced_detection,val,0,,normal,B,Youtube,No,No
+27127,balanced_detection,val,0,,normal,C,Twitch,No,No
+27876,balanced_detection,val,0,,normal,C,Twitch,No,No
+218,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+30136,balanced_detection,val,0,,normal,C,Youtube,No,No
+101,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+2289,balanced_detection,val,0,,normal,A,File,No,Yes
+2355,balanced_detection,val,0,,normal,A,File,No,Yes
+4772,balanced_detection,val,0,,normal,A,File,No,No
+666,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+23943,balanced_detection,val,0,,normal,C,File,No,No
+489,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+55,balanced_detection,val,1,Jamming,real,A,File,No,No
+138,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+24998,balanced_detection,val,0,,normal,C,File,No,No
+819,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+12854,balanced_detection,val,0,,normal,B,Youtube,No,Yes
+13501,balanced_detection,val,0,,normal,B,File,No,No
+835,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+30261,balanced_detection,val,0,,normal,C,Youtube,No,No
+21348,balanced_detection,val,0,,normal,B,Youtube,No,No
+408,balanced_detection,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+25105,balanced_detection,val,0,,normal,C,File,No,No
+544,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+7404,balanced_detection,val,0,,normal,A,Twitch,No,No
+448,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+803,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+21612,balanced_detection,val,0,,normal,B,Youtube,No,No
+811,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+91,balanced_detection,val,1,Jamming,real,A,File,No,No
+883,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+1023,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+911,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+510,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+20288,balanced_detection,val,0,,normal,B,Youtube,No,No
+326,balanced_detection,val,1,Antenna Failure,synthetic,A,File,No,No
+20671,balanced_detection,val,0,,normal,B,Youtube,No,No
+28,balanced_detection,val,1,Jamming,real,A,File,No,No
+8018,balanced_detection,val,0,,normal,A,Twitch,No,No
+472,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+244,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+8537,balanced_detection,val,0,,normal,A,Twitch,No,No
+582,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+28683,balanced_detection,val,0,,normal,C,Twitch,No,No
+8838,balanced_detection,val,0,,normal,A,Twitch,No,No
+5400,balanced_detection,val,0,,normal,A,File,No,No
+16137,balanced_detection,val,0,,normal,B,Twitch,No,No
+1009,balanced_detection,val,1,Resource Allocation Bugs,synthetic,C,File,No,No
+1942,balanced_detection,val,0,,normal,In motion,Youtube,Yes,No
+7016,balanced_detection,val,0,,normal,A,Twitch,No,No
+3728,balanced_detection,val,0,,normal,A,File,No,No
+10876,balanced_detection,val,0,,normal,A,Youtube,No,No
+86,balanced_detection,val,1,Jamming,real,A,File,No,No
+1171,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+125,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+6657,balanced_detection,val,0,,normal,A,Twitch,No,No
+16513,balanced_detection,val,0,,normal,B,Twitch,No,No
+245,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+551,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+6315,balanced_detection,val,0,,normal,A,Twitch,No,No
+195,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+389,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+556,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+21792,balanced_detection,val,0,,normal,B,Youtube,No,No
+87,balanced_detection,val,1,Jamming,real,A,File,No,No
+21590,balanced_detection,val,0,,normal,B,Youtube,No,No
+30715,balanced_detection,val,0,,normal,C,Youtube,No,No
+25966,balanced_detection,val,0,,normal,C,File,No,No
+25515,balanced_detection,val,0,,normal,C,File,No,No
+1185,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+2810,balanced_detection,val,0,,normal,A,Youtube,No,Yes
+1105,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+4902,balanced_detection,val,0,,normal,A,File,No,No
+25479,balanced_detection,val,0,,normal,C,File,No,No
+25386,balanced_detection,val,0,,normal,C,File,No,No
+698,balanced_detection,val,1,Resource Allocation Bugs,synthetic,B,File,No,No
+250,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+219,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+361,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+30398,balanced_detection,val,0,,normal,C,Youtube,No,No
+14989,balanced_detection,val,0,,normal,B,File,No,No
+918,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+16245,balanced_detection,val,0,,normal,B,Twitch,No,No
+30259,balanced_detection,val,0,,normal,C,Youtube,No,No
+647,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1080,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+27657,balanced_detection,val,0,,normal,C,Twitch,No,No
+28199,balanced_detection,val,0,,normal,C,Twitch,No,No
+28752,balanced_detection,val,0,,normal,C,Twitch,No,No
+197,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+21030,balanced_detection,val,0,,normal,B,Youtube,No,No
+11130,balanced_detection,val,0,,normal,A,Youtube,No,No
+21183,balanced_detection,val,0,,normal,B,Youtube,No,No
+25569,balanced_detection,val,0,,normal,C,File,No,No
+7662,balanced_detection,val,0,,normal,A,Twitch,No,No
+10852,balanced_detection,val,0,,normal,A,Youtube,No,No
+8803,balanced_detection,val,0,,normal,A,Twitch,No,No
+3830,balanced_detection,val,0,,normal,A,File,No,No
+792,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+697,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+614,balanced_detection,val,1,Resource Allocation Bugs,synthetic,B,File,No,No
+3017,balanced_detection,val,0,,normal,A,Youtube,No,Yes
+11988,balanced_detection,val,0,,normal,A,Youtube,No,No
+906,balanced_detection,val,1,Doppler Shift (Severe),synthetic,C,File,No,No
+29302,balanced_detection,val,0,,normal,C,Youtube,No,No
+734,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+27590,balanced_detection,val,0,,normal,C,Twitch,No,No
+493,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1054,balanced_detection,val,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+9888,balanced_detection,val,0,,normal,A,Youtube,No,No
+1031,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+243,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+892,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+474,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+8012,balanced_detection,val,0,,normal,A,Twitch,No,No
+17466,balanced_detection,val,0,,normal,B,Twitch,No,No
+328,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+7532,balanced_detection,val,0,,normal,A,Twitch,No,No
+1050,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+126,balanced_detection,val,1,Jamming,real,A,Twitch,No,No
+1223,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+4144,balanced_detection,val,0,,normal,A,File,No,No
+1232,balanced_detection,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+30814,balanced_detection,val,0,,normal,C,Youtube,No,No
+29068,balanced_detection,val,0,,normal,C,Youtube,No,No
+5011,balanced_detection,val,0,,normal,A,File,No,No
+1140,balanced_detection,val,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+467,balanced_detection,val,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+16342,balanced_detection,val,0,,normal,B,Twitch,No,No
+17108,balanced_detection,val,0,,normal,B,Twitch,No,No
+5422,balanced_detection,val,0,,normal,A,File,No,No
+10993,balanced_detection,val,0,,normal,A,Youtube,No,No
+813,balanced_detection,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+26331,balanced_detection,val,0,,normal,C,Twitch,No,No
+2032,balanced_detection,val,0,,normal,In motion,Youtube,Yes,No
+4586,balanced_detection,val,0,,normal,A,File,No,No
+613,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+7036,balanced_detection,val,0,,normal,A,Twitch,No,No
+25934,balanced_detection,val,0,,normal,C,File,No,No
+963,balanced_detection,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+1060,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+29041,balanced_detection,val,0,,normal,C,Youtube,No,No
+7985,balanced_detection,val,0,,normal,A,Twitch,No,No
+717,balanced_detection,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,File,No,No
+13267,balanced_detection,val,0,,normal,B,File,No,No
+771,balanced_detection,val,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+1077,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+12269,balanced_detection,val,0,,normal,B,File,No,Yes
+24844,balanced_detection,val,0,,normal,C,File,No,No
+944,balanced_detection,val,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+19568,balanced_detection,val,0,,normal,B,Youtube,No,No
+716,balanced_detection,val,1,Resource Allocation Bugs,synthetic,B,File,No,No
+461,balanced_detection,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+253,balanced_detection,val,1,Jamming,real,A,Youtube,No,No
+19332,balanced_detection,val,0,,normal,B,Youtube,No,No

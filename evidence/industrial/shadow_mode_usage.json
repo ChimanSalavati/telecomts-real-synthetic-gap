@@ -1,0 +1,82 @@
+{
+  "total_csvs_audited": 4,
+  "total_windows_audited": 15376,
+  "total_anomalous_windows": 327,
+  "total_normal_windows": 15049,
+  "total_timing_flow_seconds": 15376.0,
+  "total_timing_flow_hours": 4.271,
+  "total_audit_wall_seconds": 0.64,
+  "total_audit_wall_minutes": 0.01,
+  "median_audit_wall_seconds": 0.1455,
+  "p95_audit_wall_seconds": 0.20734999999999998,
+  "verdict_distribution": {
+    "pass": 0,
+    "gap_detected": 0,
+    "origin_incomplete_synthetic_only": 3,
+    "origin_incomplete_real_only": 0,
+    "no_anomalies_present": 1
+  },
+  "detectors_held_in_shadow": 3,
+  "per_csv": [
+    {
+      "csv": "site1_anomaly.csv",
+      "rows": 3958,
+      "n_normal": 3849,
+      "n_anomalous": 109,
+      "n_features_after_ignore": 203,
+      "interval_seconds_total": 3958.0,
+      "wall_seconds": 0.218,
+      "verdict": "origin_incomplete_synthetic_only",
+      "c2st_accuracy": null,
+      "c2st_auroc": null,
+      "mmd_norm": null,
+      "mmd_p_value": null,
+      "bh_significant_features": null
+    },
+    {
+      "csv": "site2_anomaly.csv",
+      "rows": 3958,
+      "n_normal": 3849,
+      "n_anomalous": 109,
+      "n_features_after_ignore": 203,
+      "interval_seconds_total": 3958.0,
+      "wall_seconds": 0.147,
+      "verdict": "origin_incomplete_synthetic_only",
+      "c2st_accuracy": null,
+      "c2st_auroc": null,
+      "mmd_norm": null,
+      "mmd_p_value": null,
+      "bh_significant_features": null
+    },
+    {
+      "csv": "site2_normal.csv",
+      "rows": 3502,
+      "n_normal": 3502,
+      "n_anomalous": 0,
+      "n_features_after_ignore": 206,
+      "interval_seconds_total": 3502.0,
+      "wall_seconds": 0.131,
+      "verdict": "no_anomalies_present",
+      "c2st_accuracy": null,
+      "c2st_auroc": null,
+      "mmd_norm": null,
+      "mmd_p_value": null,
+      "bh_significant_features": null
+    },
+    {
+      "csv": "site3_anomaly.csv",
+      "rows": 3958,
+      "n_normal": 3849,
+      "n_anomalous": 109,
+      "n_features_after_ignore": 203,
+      "interval_seconds_total": 3958.0,
+      "wall_seconds": 0.144,
+      "verdict": "origin_incomplete_synthetic_only",
+      "c2st_accuracy": null,
+      "c2st_auroc": null,
+      "mmd_norm": null,
+      "mmd_p_value": null,
+      "bh_significant_features": null
+    }
+  ]
+}

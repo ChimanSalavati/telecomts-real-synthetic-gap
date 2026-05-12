@@ -1,0 +1,17 @@
+rank,rank_ks,rank_abs_d,rank_wasserstein_z
+1,RSRP,RSRP,RSRP
+2,DL_BLER,UL_SNR,UL_SNR
+3,UL_SNR,RX_Bytes,RX_Bytes
+4,UL_BLER,DL_MCS,DL_MCS
+5,RX_Bytes,PRBs_UL_Current,UL_BLER
+6,PRB_Utilization_DL,UL_BLER,PRBs_UL_Current
+7,TX_Bytes,TX_Bytes,UL_MCS
+8,PRB_Utilization_UL,PRB_Utilization_UL,PRB_Utilization_UL
+9,DL_MCS,Estimated_UL_Buffer,TX_Bytes
+10,PRBs_UL_Current,DL_NumberOfPackets,UL_NPRB
+11,PRBs_DL_Current,UL_NumberOfPackets,DL_BLER
+12,Estimated_UL_Buffer,UL_NPRB,DL_NumberOfPackets
+13,UL_NumberOfPackets,PRB_Utilization_DL,Estimated_UL_Buffer
+14,UL_MCS,PRBs_DL_Current,PRB_Utilization_DL
+15,UL_NPRB,UL_MCS,UL_NumberOfPackets
+16,DL_NumberOfPackets,DL_BLER,PRBs_DL_Current

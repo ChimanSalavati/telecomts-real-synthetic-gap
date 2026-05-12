@@ -1,0 +1,33 @@
+{
+  "zone_counts": {
+    "A": 10538,
+    "C": 10285,
+    "B": 10250,
+    "In motion": 927
+  },
+  "zone_by_anomaly_origin": {
+    "A": {
+      "normal": 9948,
+      "real": 279,
+      "synthetic": 311
+    },
+    "B": {
+      "normal": 9945,
+      "real": 0,
+      "synthetic": 305
+    },
+    "C": {
+      "normal": 9945,
+      "real": 0,
+      "synthetic": 340
+    },
+    "In motion": {
+      "normal": 927,
+      "real": 0,
+      "synthetic": 0
+    }
+  },
+  "zone_in_motion_iff_mobility_yes": true,
+  "real_jamming_only_in_zone_A": true,
+  "no_anomalies_during_mobility": true
+}

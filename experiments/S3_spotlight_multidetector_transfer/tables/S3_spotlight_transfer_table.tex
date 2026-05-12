@@ -1,0 +1,23 @@
+\begin{table*}[t]
+  \caption{SpotLight multi-detector origin-aware transfer audit (mean$\pm$std over 10 seeds; 35 \textsc{Radio} / 67 non-\textsc{Radio} / 102 Normal test windows held fixed across detectors and seeds). \textbf{Synth-only} ($f\!=\!0$) drops the controlled-real \textsc{Radio} pool from training; $f\!=\!10\%$ (21 windows) is the TelecomTS-equivalent budget; $f\!=\!25\%$ (52 windows) is the SpotLight per-corpus budget that matches Table~\ref{tab:s2_spotlight_cal}. The detector-independent failure and the detector-independent recovery at the paper-recommended budget replicate the TelecomTS pattern (Table~\ref{tab:e9_transfer}) on a second testbed corpus.}
+  \label{tab:s3_spotlight_transfer}
+  \footnotesize
+  \setlength{\tabcolsep}{2pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccccccc@{}}
+    \toprule
+    Detector & \multicolumn{4}{c}{Synth-only ($f\!=\!0$)} & \multicolumn{4}{c}{Calibrated ($f\!=\!10\%$)} & \multicolumn{4}{c}{Calibrated ($f\!=\!25\%$)} \\
+    \cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+      & F1 & AUC & \textsc{Rad} & non-\textsc{R} & F1 & AUC & \textsc{Rad} & non-\textsc{R} & F1 & AUC & \textsc{Rad} & non-\textsc{R} \\
+    \midrule
+    \multicolumn{13}{l}{Tabular detectors on per-channel KPI summaries} \\
+    HGB & 0.78{\tiny$\pm$0.03} & 0.94{\tiny$\pm$0.01} & 8{\tiny$\pm$12}\% & 97{\tiny$\pm$3}\% & 0.91{\tiny$\pm$0.01} & 0.98{\tiny$\pm$0.00} & 67{\tiny$\pm$5}\% & 97{\tiny$\pm$2}\% & 0.94{\tiny$\pm$0.01} & 0.99{\tiny$\pm$0.00} & 83{\tiny$\pm$7}\% & 99{\tiny$\pm$1}\% \\
+    RF & 0.75{\tiny$\pm$0.02} & 0.92{\tiny$\pm$0.01} & 0{\tiny$\pm$0}\% & 95{\tiny$\pm$4}\% & 0.86{\tiny$\pm$0.06} & 0.97{\tiny$\pm$0.00} & 45{\tiny$\pm$24}\% & 97{\tiny$\pm$4}\% & 0.91{\tiny$\pm$0.02} & 0.98{\tiny$\pm$0.00} & 77{\tiny$\pm$15}\% & 98{\tiny$\pm$3}\% \\
+    XGB & 0.77{\tiny$\pm$0.01} & 0.92{\tiny$\pm$0.01} & 2{\tiny$\pm$2}\% & 97{\tiny$\pm$2}\% & 0.90{\tiny$\pm$0.02} & 0.98{\tiny$\pm$0.00} & 64{\tiny$\pm$12}\% & 97{\tiny$\pm$3}\% & 0.92{\tiny$\pm$0.01} & 0.99{\tiny$\pm$0.00} & 80{\tiny$\pm$9}\% & 98{\tiny$\pm$2}\% \\
+    \midrule
+    \multicolumn{13}{l}{Modern supervised detectors on raw $64\times452$ KPI windows} \\
+    Toto (frozen) & 0.80{\tiny$\pm$0.02} & 0.89{\tiny$\pm$0.00} & 51{\tiny$\pm$10}\% & 90{\tiny$\pm$4}\% & 0.81{\tiny$\pm$0.02} & 0.90{\tiny$\pm$0.01} & 66{\tiny$\pm$12}\% & 91{\tiny$\pm$5}\% & 0.84{\tiny$\pm$0.01} & 0.91{\tiny$\pm$0.01} & 74{\tiny$\pm$8}\% & 92{\tiny$\pm$2}\% \\
+    TimesNet (e2e) & 0.73{\tiny$\pm$0.04} & 0.85{\tiny$\pm$0.01} & 1{\tiny$\pm$2}\% & 94{\tiny$\pm$8}\% & 0.84{\tiny$\pm$0.05} & 0.94{\tiny$\pm$0.01} & 43{\tiny$\pm$25}\% & 99{\tiny$\pm$2}\% & 0.90{\tiny$\pm$0.04} & 0.95{\tiny$\pm$0.01} & 81{\tiny$\pm$14}\% & 98{\tiny$\pm$4}\% \\
+    PatchTST (e2e) & 0.61{\tiny$\pm$0.12} & 0.86{\tiny$\pm$0.02} & 12{\tiny$\pm$12}\% & 67{\tiny$\pm$18}\% & 0.69{\tiny$\pm$0.12} & 0.87{\tiny$\pm$0.03} & 28{\tiny$\pm$20}\% & 75{\tiny$\pm$16}\% & 0.65{\tiny$\pm$0.11} & 0.88{\tiny$\pm$0.03} & 33{\tiny$\pm$18}\% & 64{\tiny$\pm$14}\% \\
+    \bottomrule
+  \end{tabular*}
+\end{table*}

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+  \caption{Multi-detector real--synthetic transfer audit on TelecomTS. Each cell reports mean$\pm$std over 10 seeds where the std is non-trivial. ``F1'' is aggregate binary F1; ``Real''~/~``Synth'' are detection rates (recalls) within the real-Jamming and synthetic-anomaly subgroups of the test set. Columns are grouped by training setting and training regime. Across every detector tested, synthetic-only training collapses on real Jamming at scale while preserving synthetic-anomaly recall.}
+  \label{tab:e9_transfer}
+  \scriptsize
+  \setlength{\tabcolsep}{2.6pt}
+  \begin{tabular}{@{}lccccccccccccccc@{}}
+    \toprule
+    Detector & \multicolumn{3}{c}{Ctrl-500 / all} & \multicolumn{3}{c}{Ctrl-500 / synth} & \multicolumn{3}{c}{Ctrl-500 / real} & \multicolumn{3}{c}{Bal-494 / synth} & \multicolumn{3}{c}{Full-6.4k / synth} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}\cmidrule(lr){14-16}
+      & F1 & Real & Synth & F1 & Real & Synth & F1 & Real & Synth & F1 & Real & Synth & F1 & Real & Synth \\
+    \midrule
+    HGB & 0.95$\pm$0.02 & 100\% & 91$\pm$4\% & 0.65$\pm$0.03 & 8$\pm$8\% & 92$\pm$4\% & 0.66 & 100\% & 0\% & 0.85 & 12\% & 99\% & 0.81$\pm$0.01 & 0\% & 96$\pm$1\% \\
+    RF & 0.94$\pm$0.02 & 100\% & 90$\pm$7\% & 0.66$\pm$0.04 & 16$\pm$13\% & 92$\pm$4\% & 0.67$\pm$0.02 & 100$\pm$1\% & 2$\pm$6\% & 0.84 & 17$\pm$4\% & 97\% & 0.80 & 0\% & 94$\pm$1\% \\
+    LR & 0.90$\pm$0.04 & 98$\pm$4\% & 84$\pm$6\% & 0.59$\pm$0.04 & 3$\pm$4\% & 87$\pm$7\% & 0.69$\pm$0.04 & 98$\pm$3\% & 15$\pm$12\% & 0.81 & 3\% & 97\% & 0.79$\pm$0.01 & 0\% & 93$\pm$2\% \\
+    kNN & 0.84$\pm$0.05 & 96$\pm$5\% & 72$\pm$19\% & 0.56$\pm$0.14 & 18$\pm$17\% & 71$\pm$20\% & 0.66$\pm$0.06 & 86$\pm$8\% & 20$\pm$14\% & 0.79 & 2\% & 93\% & 0.77 & 0\% & 88$\pm$2\% \\
+    MLP & 0.87$\pm$0.05 & 94$\pm$9\% & 85$\pm$8\% & 0.55$\pm$0.07 & 14$\pm$18\% & 73$\pm$10\% & 0.64$\pm$0.08 & 82$\pm$15\% & 26$\pm$16\% & 0.80$\pm$0.01 & 2\% & 96$\pm$1\% & 0.80$\pm$0.01 & 0\% & 95$\pm$2\% \\
+    XGB & 0.94$\pm$0.01 & 100\% & 93$\pm$4\% & 0.64$\pm$0.06 & 10$\pm$10\% & 90$\pm$7\% & 0.66$\pm$0.01 & 100\% & 0\% & 0.83$\pm$0.01 & 9$\pm$5\% & 97$\pm$1\% & 0.82 & 0\% & 97$\pm$1\% \\
+    LGBM & 0.96$\pm$0.01 & 100\% & 92$\pm$4\% & 0.64$\pm$0.05 & 7$\pm$10\% & 90$\pm$7\% & 0.66 & 100\% & 0\% & 0.85 & 13\% & 99\% & 0.82 & 0\% & 96\% \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

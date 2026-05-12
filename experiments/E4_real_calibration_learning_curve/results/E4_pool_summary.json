@@ -1,0 +1,13 @@
+{
+  "split": "fullscale (seed=42)",
+  "train_norm": 22151,
+  "train_real_pool": 185,
+  "train_synth_pool": 704,
+  "val": 2560,
+  "val_normal": 2461,
+  "val_anomaly": 99,
+  "test": 6400,
+  "test_normal": 6153,
+  "test_real_jamming": 69,
+  "test_synthetic_anomaly": 178
+}

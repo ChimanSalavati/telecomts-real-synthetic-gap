@@ -1,0 +1,20 @@
+{
+  "csv": "data/industrial_anomaly_1s.csv",
+  "rows": 3958,
+  "n_normal": 3849,
+  "n_synthetic": 109,
+  "n_features": 203,
+  "diagnostic_result": {
+    "n_controlled_real": 3849,
+    "n_synthetic": 109,
+    "c2st_accuracy": 0.992420730695067,
+    "c2st_auroc": 0.9961672567661118,
+    "mmd_norm": 78.10893898517946,
+    "mmd_p_value": 0.001996007984031936,
+    "bh_significant_features": 166,
+    "n_features_tested": 201,
+    "verdict": "gap_detected",
+    "notes": "C2ST accuracy 0.992 (AUROC 0.996) and MMD norm 78.10893898517946 indicate the two origins are statistically distinguishable; calibration with controlled-real windows is required before the detector can be promoted (see calibration_budget)."
+  },
+  "note": "DIAGNOSTIC ONLY. The industrial benchmark used for this measurement does not contain controlled-real anomaly labels; this run uses Normal traffic in place of controlled-real to confirm the audit machinery fires correctly on the real 203-feature timing-flow schema. The operator-facing verdict is the primary `telecomts-audit --synthetic-only-from-flag` run, which returns `origin_incomplete_synthetic_only` and refuses to certify the benchmark for operational model selection. See `audit_verdict.json` for the operator-facing result."
+}

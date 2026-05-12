@@ -1,0 +1,12 @@
+split,pair,overlap
+small_natural,train-val,0
+small_natural,train-test,0
+small_natural,val-test,0
+balanced_detection,train-val,0
+balanced_detection,train-test,0
+balanced_detection,val-test,0
+controlled_500,train-val,0
+controlled_500,train-test,0
+controlled_500,val-test,0
+fullscale,train-test,0
+split_rca_balanced,train-test,0

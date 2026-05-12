@@ -1,0 +1,101 @@
+sample_id,split,partition,y,anomaly_type,anomaly_origin,zone,application,mobility,congestion
+8002,controlled_500,val,0,,normal,A,Twitch,No,No
+12569,controlled_500,val,0,,normal,B,Twitch,No,Yes
+1014,controlled_500,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+3711,controlled_500,val,0,,normal,A,File,No,No
+691,controlled_500,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+1095,controlled_500,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+19629,controlled_500,val,0,,normal,B,Youtube,No,No
+1053,controlled_500,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+24497,controlled_500,val,0,,normal,C,File,No,No
+20813,controlled_500,val,0,,normal,B,Youtube,No,No
+30467,controlled_500,val,0,,normal,C,Youtube,No,No
+3594,controlled_500,val,0,,normal,A,File,No,No
+236,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+394,controlled_500,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+197,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+27146,controlled_500,val,0,,normal,C,Twitch,No,No
+3239,controlled_500,val,0,,normal,A,File,No,No
+24255,controlled_500,val,0,,normal,C,File,No,No
+25,controlled_500,val,1,Jamming,real,A,File,No,No
+904,controlled_500,val,1,Antenna Failure,synthetic,C,File,No,No
+18388,controlled_500,val,0,,normal,B,Twitch,No,No
+10527,controlled_500,val,0,,normal,A,Youtube,No,No
+8151,controlled_500,val,0,,normal,A,Twitch,No,No
+8054,controlled_500,val,0,,normal,A,Twitch,No,No
+740,controlled_500,val,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+661,controlled_500,val,1,Antenna Failure,synthetic,B,File,No,No
+12113,controlled_500,val,0,,normal,B,File,No,Yes
+675,controlled_500,val,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+23649,controlled_500,val,0,,normal,C,File,No,No
+23891,controlled_500,val,0,,normal,C,File,No,No
+71,controlled_500,val,1,Jamming,real,A,File,No,No
+18548,controlled_500,val,0,,normal,B,Twitch,No,No
+11186,controlled_500,val,0,,normal,A,Youtube,No,No
+95,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+13975,controlled_500,val,0,,normal,B,File,No,No
+5247,controlled_500,val,0,,normal,A,File,No,No
+21303,controlled_500,val,0,,normal,B,Youtube,No,No
+2196,controlled_500,val,0,,normal,A,File,No,Yes
+790,controlled_500,val,1,Co-Channel Interference (Severe),synthetic,B,Twitch,No,No
+2348,controlled_500,val,0,,normal,A,File,No,Yes
+22889,controlled_500,val,0,,normal,C,Youtube,No,Yes
+351,controlled_500,val,1,Antenna Failure,synthetic,A,Twitch,No,No
+23810,controlled_500,val,0,,normal,C,File,No,No
+177,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+10357,controlled_500,val,0,,normal,A,Youtube,No,No
+547,controlled_500,val,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+31612,controlled_500,val,0,,normal,C,Youtube,No,No
+646,controlled_500,val,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+20237,controlled_500,val,0,,normal,B,Youtube,No,No
+860,controlled_500,val,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+19332,controlled_500,val,0,,normal,B,Youtube,No,No
+18833,controlled_500,val,0,,normal,B,Twitch,No,No
+150,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+1115,controlled_500,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+36,controlled_500,val,1,Jamming,real,A,File,No,No
+10383,controlled_500,val,0,,normal,A,Youtube,No,No
+262,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+1227,controlled_500,val,1,High Network Congestion (Sudden Spike),synthetic,C,Youtube,No,No
+20380,controlled_500,val,0,,normal,B,Youtube,No,No
+108,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+209,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+281,controlled_500,val,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+20459,controlled_500,val,0,,normal,B,Youtube,No,No
+18566,controlled_500,val,0,,normal,B,Twitch,No,No
+850,controlled_500,val,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+272,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+247,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+73,controlled_500,val,1,Jamming,real,A,File,No,No
+19969,controlled_500,val,0,,normal,B,Youtube,No,No
+4,controlled_500,val,1,Jamming,real,A,File,No,No
+31036,controlled_500,val,0,,normal,C,Youtube,No,No
+24557,controlled_500,val,0,,normal,C,File,No,No
+94,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+213,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+28716,controlled_500,val,0,,normal,C,Twitch,No,No
+26648,controlled_500,val,0,,normal,C,Twitch,No,No
+231,controlled_500,val,1,Jamming,real,A,Youtube,No,No
+8689,controlled_500,val,0,,normal,A,Twitch,No,No
+1180,controlled_500,val,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+19,controlled_500,val,1,Jamming,real,A,File,No,No
+14103,controlled_500,val,0,,normal,B,File,No,No
+7470,controlled_500,val,0,,normal,A,Twitch,No,No
+164,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+743,controlled_500,val,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+31904,controlled_500,val,0,,normal,C,Youtube,No,No
+12,controlled_500,val,1,Jamming,real,A,File,No,No
+27299,controlled_500,val,0,,normal,C,Twitch,No,No
+443,controlled_500,val,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+174,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+118,controlled_500,val,1,Jamming,real,A,Twitch,No,No
+13718,controlled_500,val,0,,normal,B,File,No,No
+951,controlled_500,val,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+24302,controlled_500,val,0,,normal,C,File,No,No
+1126,controlled_500,val,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+5517,controlled_500,val,0,,normal,A,File,No,No
+13512,controlled_500,val,0,,normal,B,File,No,No
+290,controlled_500,val,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+513,controlled_500,val,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+13,controlled_500,val,1,Jamming,real,A,File,No,No
+22,controlled_500,val,1,Jamming,real,A,File,No,No

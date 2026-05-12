@@ -1,0 +1,101 @@
+sample_id,split,partition,y,anomaly_type,anomaly_origin,zone,application,mobility,congestion
+2646,controlled_500,test,0,,normal,A,Twitch,No,Yes
+21026,controlled_500,test,0,,normal,B,Youtube,No,No
+21033,controlled_500,test,0,,normal,B,Youtube,No,No
+173,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+155,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+17135,controlled_500,test,0,,normal,B,Twitch,No,No
+263,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+525,controlled_500,test,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+15424,controlled_500,test,0,,normal,B,File,No,No
+129,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+7158,controlled_500,test,0,,normal,A,Twitch,No,No
+782,controlled_500,test,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+6010,controlled_500,test,0,,normal,A,File,No,No
+24,controlled_500,test,1,Jamming,real,A,File,No,No
+22071,controlled_500,test,0,,normal,C,File,No,Yes
+28170,controlled_500,test,0,,normal,C,Twitch,No,No
+127,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+144,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+23061,controlled_500,test,0,,normal,C,File,No,No
+884,controlled_500,test,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+20275,controlled_500,test,0,,normal,B,Youtube,No,No
+27728,controlled_500,test,0,,normal,C,Twitch,No,No
+5097,controlled_500,test,0,,normal,A,File,No,No
+201,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+685,controlled_500,test,1,Resource Allocation Bugs,synthetic,B,File,No,No
+26983,controlled_500,test,0,,normal,C,Twitch,No,No
+598,controlled_500,test,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+436,controlled_500,test,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+1133,controlled_500,test,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+541,controlled_500,test,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+3593,controlled_500,test,0,,normal,A,File,No,No
+2210,controlled_500,test,0,,normal,A,File,No,Yes
+6019,controlled_500,test,0,,normal,A,File,No,No
+12365,controlled_500,test,0,,normal,B,File,No,Yes
+111,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+17310,controlled_500,test,0,,normal,B,Twitch,No,No
+22426,controlled_500,test,0,,normal,C,Twitch,No,Yes
+97,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+4022,controlled_500,test,0,,normal,A,File,No,No
+109,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+17540,controlled_500,test,0,,normal,B,Twitch,No,No
+207,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+47,controlled_500,test,1,Jamming,real,A,File,No,No
+1030,controlled_500,test,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+29,controlled_500,test,1,Jamming,real,A,File,No,No
+20750,controlled_500,test,0,,normal,B,Youtube,No,No
+327,controlled_500,test,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+767,controlled_500,test,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+28866,controlled_500,test,0,,normal,C,Twitch,No,No
+15318,controlled_500,test,0,,normal,B,File,No,No
+216,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+30715,controlled_500,test,0,,normal,C,Youtube,No,No
+210,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+21954,controlled_500,test,0,,normal,B,Youtube,No,No
+533,controlled_500,test,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+57,controlled_500,test,1,Jamming,real,A,File,No,No
+10863,controlled_500,test,0,,normal,A,Youtube,No,No
+575,controlled_500,test,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+17514,controlled_500,test,0,,normal,B,Twitch,No,No
+595,controlled_500,test,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+368,controlled_500,test,1,Antenna Failure,synthetic,A,Twitch,No,No
+2077,controlled_500,test,0,,normal,In motion,Youtube,Yes,No
+162,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+5761,controlled_500,test,0,,normal,A,File,No,No
+28245,controlled_500,test,0,,normal,C,Twitch,No,No
+227,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+863,controlled_500,test,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+132,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+170,controlled_500,test,1,Jamming,real,A,Twitch,No,No
+66,controlled_500,test,1,Jamming,real,A,File,No,No
+615,controlled_500,test,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+7193,controlled_500,test,0,,normal,A,Twitch,No,No
+4123,controlled_500,test,0,,normal,A,File,No,No
+807,controlled_500,test,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+24577,controlled_500,test,0,,normal,C,File,No,No
+6290,controlled_500,test,0,,normal,A,Twitch,No,No
+517,controlled_500,test,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+28667,controlled_500,test,0,,normal,C,Twitch,No,No
+1016,controlled_500,test,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+27091,controlled_500,test,0,,normal,C,Twitch,No,No
+25520,controlled_500,test,0,,normal,C,File,No,No
+20538,controlled_500,test,0,,normal,B,Youtube,No,No
+18710,controlled_500,test,0,,normal,B,Twitch,No,No
+3136,controlled_500,test,0,,normal,A,File,No,No
+803,controlled_500,test,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+1075,controlled_500,test,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+219,controlled_500,test,1,Jamming,real,A,Youtube,No,No
+68,controlled_500,test,1,Jamming,real,A,File,No,No
+3754,controlled_500,test,0,,normal,A,File,No,No
+26126,controlled_500,test,0,,normal,C,Twitch,No,No
+19563,controlled_500,test,0,,normal,B,Youtube,No,No
+5776,controlled_500,test,0,,normal,A,File,No,No
+16377,controlled_500,test,0,,normal,B,Twitch,No,No
+92,controlled_500,test,1,Jamming,real,A,File,No,No
+31783,controlled_500,test,0,,normal,C,Youtube,No,No
+9111,controlled_500,test,0,,normal,A,Youtube,No,No
+431,controlled_500,test,1,Antenna Failure,synthetic,A,Twitch,No,No
+17325,controlled_500,test,0,,normal,B,Twitch,No,No
+861,controlled_500,test,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+939,controlled_500,test,1,Antenna Failure,synthetic,C,File,No,No

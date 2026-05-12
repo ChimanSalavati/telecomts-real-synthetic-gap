@@ -1,0 +1,67 @@
+# --- Python build / cache ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+build/
+dist/
+
+# --- Notebook outputs / Jupyter ---
+.ipynb_checkpoints/
+
+# --- Local data caches (rebuilt on first run) ---
+experiments/_shared/cache/
+**/cache/
+**/.matplotlib-cache/
+**/embeddings_cache/
+*.pkl
+*.npz
+
+# --- Per-experiment run logs (large, regenerated on every run) ---
+**/run_log*.txt
+
+# --- Backup archives (must NEVER go into a public research repo) ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# --- LaTeX build artefacts ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# --- macOS ---
+.DS_Store
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+
+# --- Optional materials kept out of the public artefact ---
+compile_logs/
+
+# --- Centralized run outputs from `python main.py ...` -------------------
+# Fresh runs land under artifacts/<EXP>/; the directory itself is tracked
+# (placeholder + README) but the generated CSV/PDF/JSON payloads are not,
+# so a clean checkout stays small and reruns never dirty the tree.
+/artifacts/*
+!/artifacts/.gitkeep
+!/artifacts/README.md

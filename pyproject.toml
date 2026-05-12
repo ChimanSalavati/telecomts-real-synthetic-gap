@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telecomts-gap"
+version = "0.1.0"
+description = "Origin-aware benchmark auditing and calibration-budget estimation for telecom anomaly detection (CIKM 2026)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Chiman Salavati", email = "chiman.salavati@uconn.edu" },
+]
+keywords = [
+    "anomaly-detection",
+    "5G",
+    "Open-RAN",
+    "benchmark-auditing",
+    "distribution-shift",
+    "synthetic-to-real",
+    "telecom",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "python-multipart>=0.0.7",
+    "httpx>=0.27",
+]
+dev = [
+    "pytest>=7",
+    "pytest-cov>=4",
+    # The smoke-runnable experiment runners render figures, so the plotting
+    # stack is part of the "can run the smoke set" environment (.[api,dev]).
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+]
+notebooks = [
+    "jupyter>=1.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+    "datasets>=2.20",
+    "huggingface-hub>=0.24",
+    "tqdm>=4.66",
+]
+
+[project.urls]
+Homepage = "https://github.com/ChimanSalavati/telecomts-real-synthetic-gap"
+Source = "https://github.com/ChimanSalavati/telecomts-real-synthetic-gap"
+Issues = "https://github.com/ChimanSalavati/telecomts-real-synthetic-gap/issues"
+
+[project.scripts]
+telecomts-audit = "telecomts_gap.cli:main"
+
+[tool.setuptools]
+packages = ["telecomts_gap", "telecomts_gap.api"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"

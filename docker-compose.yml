@@ -1,0 +1,19 @@
+# Run the TelecomAudit service locally:
+#
+#   docker compose up --build
+#   curl localhost:8765/audit/health
+#
+# POST a benchmark CSV for an origin-aware verdict:
+#   curl -F "file=@data/benchmark.csv" localhost:8765/audit/origin
+services:
+  audit:
+    build: .
+    image: telecomts-audit:latest
+    ports:
+      - "8765:8765"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8765/audit/health').status==200 else 1)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped

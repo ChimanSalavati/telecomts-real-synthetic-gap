@@ -1,0 +1,989 @@
+sample_id,split,partition,y,anomaly_type,anomaly_origin,zone,application,mobility,congestion
+1209,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+858,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+934,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+601,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+737,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+804,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+1079,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+685,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1052,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+806,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+833,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+157,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+150,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+324,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+42,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+721,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+582,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+979,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+1132,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+188,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+91,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+255,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+168,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+708,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+761,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+808,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+770,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+395,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+1179,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+479,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+431,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+923,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+776,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+43,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+937,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+97,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+484,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1233,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1099,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+591,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+506,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+213,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+185,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+652,split_rca_balanced,train,1,Antenna Failure,synthetic,B,File,No,No
+826,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+768,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+375,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+560,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+608,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+382,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+1139,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1022,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+980,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+879,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Youtube,No,No
+1103,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+17,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+927,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+325,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+128,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+108,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+283,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+725,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+811,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+357,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+634,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+258,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+992,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+1220,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+558,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+884,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+102,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1153,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+251,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+135,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+571,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+885,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+1142,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+339,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+767,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+925,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+551,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+952,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+120,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+427,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+256,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1031,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+1161,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+907,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+113,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+790,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,Twitch,No,No
+163,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+148,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+33,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+34,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+616,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1195,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+61,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+538,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Youtube,No,No
+659,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+335,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+547,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+75,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+818,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+114,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+481,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+0,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+635,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+586,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+57,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+286,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+463,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+508,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Youtube,No,No
+611,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+243,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1168,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+1073,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+81,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+622,split_rca_balanced,train,1,Antenna Failure,synthetic,B,File,No,No
+1120,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+125,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+865,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+794,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+1171,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+964,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+66,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+528,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+1187,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+917,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+900,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+1200,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+869,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,Youtube,No,No
+87,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1175,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+943,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+396,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+187,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1148,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+236,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+769,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+1025,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+859,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+388,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+718,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+238,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+262,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+193,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+946,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+1219,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+990,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+1075,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+1137,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+445,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+841,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+76,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+663,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,File,No,No
+1116,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+326,split_rca_balanced,train,1,Antenna Failure,synthetic,A,File,No,No
+536,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1170,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+21,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+320,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1004,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+641,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+523,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+739,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+1198,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+434,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+687,split_rca_balanced,train,1,Antenna Failure,synthetic,B,File,No,No
+1017,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+1205,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+39,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+788,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+365,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+273,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1211,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+246,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+368,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+1130,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+803,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+1218,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+333,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+639,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1216,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+1227,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,Youtube,No,No
+791,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+31,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+73,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1213,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+896,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+915,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+103,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1005,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+881,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,Youtube,No,No
+180,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+600,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+32,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1054,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+27,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+210,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+619,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+504,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Youtube,No,No
+453,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+839,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+982,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+871,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+1032,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+594,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+292,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+212,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+908,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+783,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+1178,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1041,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,Twitch,No,No
+1057,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+1128,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+170,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+85,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1045,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+385,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+846,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+580,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+190,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1157,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+307,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+178,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+291,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+90,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+110,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+975,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+467,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+408,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+384,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+902,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+973,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+298,split_rca_balanced,train,1,Antenna Failure,synthetic,A,File,No,No
+754,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+657,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+155,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1140,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+637,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+5,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+561,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+162,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+83,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+800,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+1167,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+610,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1107,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+518,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+422,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+989,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+381,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+1127,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+1,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+44,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1093,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+874,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+569,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+581,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+795,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+394,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+257,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+945,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+747,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+926,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+1152,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+599,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+1068,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+285,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+672,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+330,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+28,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+490,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+195,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+142,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+471,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+606,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+179,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+49,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1151,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+1086,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+595,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+1088,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+911,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+929,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+575,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+392,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+749,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+727,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+8,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+172,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+94,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+787,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+402,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Twitch,No,No
+717,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,File,No,No
+287,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+716,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1234,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+494,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+466,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+58,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+742,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Twitch,No,No
+649,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+1126,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+397,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+856,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+176,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+789,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+798,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,Twitch,No,No
+334,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1072,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+638,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+227,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+451,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+1064,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+976,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+414,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+272,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1156,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+88,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+710,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+232,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+750,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+529,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+1225,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+147,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+312,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1066,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+827,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+29,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+486,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+702,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1084,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+935,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+554,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+598,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+692,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+957,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+668,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+1197,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+426,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Twitch,No,No
+1055,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+74,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+288,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1112,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+785,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+439,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+1053,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+604,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,File,No,No
+609,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,File,No,No
+684,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+889,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+252,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1113,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+740,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+520,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+458,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+166,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+201,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+441,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+1035,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,Twitch,No,No
+40,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+655,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+347,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+182,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+306,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+205,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+780,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+420,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+1070,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+1009,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,File,No,No
+316,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+86,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+577,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+775,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+462,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+985,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+1049,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+55,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+412,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+406,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+1021,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+1087,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,Twitch,No,No
+126,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+694,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+753,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+152,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+623,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+407,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+509,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1023,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+99,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+930,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,File,No,No
+715,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+154,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+10,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+570,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+888,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+690,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+319,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+590,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+356,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+681,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+572,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+1146,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+897,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+559,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+670,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+679,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+954,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+1221,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+317,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+1188,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+556,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+468,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+699,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+328,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+59,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+726,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1106,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+400,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Twitch,No,No
+557,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+16,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+429,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+552,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+338,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+640,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+447,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+1135,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+1122,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+151,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+666,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+887,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+367,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+52,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+265,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+512,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+950,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+436,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+962,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+786,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+1096,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+459,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1155,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+842,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+318,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+1212,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+130,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+736,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+924,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+932,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+743,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+1173,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+861,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+143,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+139,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1160,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+53,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+167,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1034,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+706,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+303,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+901,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+398,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+145,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+625,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+648,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+450,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+522,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+329,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+880,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,Youtube,No,No
+1074,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,Twitch,No,No
+919,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+796,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+1123,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+363,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+386,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+951,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+355,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Twitch,No,No
+565,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+984,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+1108,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+678,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+430,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+614,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+755,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+358,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+477,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+472,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+377,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Twitch,No,No
+555,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+401,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+455,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+1229,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+69,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+784,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+971,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,File,No,No
+404,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+792,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+475,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+587,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+175,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+615,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+348,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+526,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+872,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+828,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+550,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+9,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+495,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+781,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+405,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Twitch,No,No
+848,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+119,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+131,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+209,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+953,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+763,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+942,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+41,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+987,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+267,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1059,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+211,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+15,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+933,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+662,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1172,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+1215,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+60,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+505,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+936,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+220,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1024,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+487,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+337,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+79,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+832,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+703,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+37,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+744,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+277,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+226,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1061,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+691,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+712,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1000,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+1047,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+698,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+546,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1076,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+454,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+762,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+36,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+473,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+530,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+1114,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+225,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+250,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1129,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+633,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+1037,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+877,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+1082,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,Twitch,No,No
+71,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+669,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+184,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+346,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+578,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+452,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+1214,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+248,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1201,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+13,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+515,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+875,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+1002,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+1203,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+229,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+491,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+161,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+101,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+693,split_rca_balanced,train,1,Antenna Failure,synthetic,B,File,No,No
+409,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+999,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+653,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+233,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1166,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+249,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+741,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+361,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+476,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+153,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+428,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+129,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+11,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+883,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+109,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+731,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+1144,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+432,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+47,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+116,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+280,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+1042,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+387,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+838,split_rca_balanced,train,1,Antenna Failure,synthetic,B,Youtube,No,No
+618,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+20,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1008,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+549,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+1224,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+1058,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+748,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,Twitch,No,No
+563,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+603,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+444,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+513,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+1060,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+198,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+656,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+709,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1202,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+705,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+159,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+309,split_rca_balanced,train,1,Antenna Failure,synthetic,A,File,No,No
+424,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+470,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+206,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+343,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+1015,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+1181,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+642,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+688,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1136,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+671,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+868,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+1138,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+944,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+857,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+14,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+583,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+141,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+674,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+1051,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+344,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+673,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+247,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+482,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+895,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+1125,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+630,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+961,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+994,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+862,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+720,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+816,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+72,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+35,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+448,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+1141,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+914,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+597,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+282,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+297,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+123,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+701,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+474,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+1180,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+389,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+963,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+972,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+696,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+922,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+819,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+906,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+714,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+274,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+117,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+519,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+18,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+425,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+707,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,B,File,No,No
+1192,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+956,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+562,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+1165,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+584,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+545,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+359,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+928,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+947,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+1190,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+607,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+259,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1038,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+845,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+892,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+847,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+271,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+588,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+993,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+7,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+624,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+240,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+502,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+164,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1196,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+242,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+809,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+730,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+535,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Youtube,No,No
+437,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+89,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+916,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+1080,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+146,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1163,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+30,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+341,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+815,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+965,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+254,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+65,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+136,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+738,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,Twitch,No,No
+1117,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+824,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+983,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+516,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+521,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+1020,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+1154,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,C,Youtube,No,No
+410,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Twitch,No,No
+729,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+1014,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+1003,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+493,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1226,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1044,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+1115,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1149,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+373,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Twitch,No,No
+996,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+362,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+1039,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+54,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1069,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+332,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+158,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+202,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+308,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+293,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+500,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+507,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+204,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+230,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1063,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+461,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+203,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1071,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+483,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+234,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+313,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+1206,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+279,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+949,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+602,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+498,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,A,Youtube,No,No
+757,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+214,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+812,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+682,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+779,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+764,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,Twitch,No,No
+177,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+844,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,Youtube,No,No
+78,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+111,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+793,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+628,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+647,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+25,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1036,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+268,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+850,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+1030,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+664,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+63,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1081,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+1177,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+863,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+1191,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+745,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+171,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+446,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+270,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+605,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1092,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+378,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,Twitch,No,No
+449,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1007,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+489,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+675,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+661,split_rca_balanced,train,1,Antenna Failure,synthetic,B,File,No,No
+137,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1194,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+966,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+224,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+799,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+1223,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+968,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+1006,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+814,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+1085,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+296,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+1097,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+186,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1158,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+352,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+221,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+752,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+311,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+460,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+376,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+304,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+77,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+534,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,Youtube,No,No
+974,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+1043,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,Twitch,No,No
+1230,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+771,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+654,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+499,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+92,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+349,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+480,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+208,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+457,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+1011,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+465,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Youtube,No,No
+860,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+836,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+1098,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+106,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+403,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+241,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1067,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+492,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+910,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+140,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+825,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+852,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+327,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+393,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+658,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+216,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+314,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,File,No,No
+797,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,Twitch,No,No
+1027,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+294,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+1176,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Youtube,No,No
+23,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+511,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+830,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+1065,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+1040,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+372,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+1110,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+1101,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+843,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Youtube,No,No
+105,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+646,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,File,No,No
+1124,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+121,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1162,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+371,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+695,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,B,File,No,No
+95,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1091,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+174,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+48,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+531,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+1222,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+683,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+873,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+574,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+284,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+464,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,Youtube,No,No
+419,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+22,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+93,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+596,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+837,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Youtube,No,No
+1210,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+115,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+278,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+369,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,A,Twitch,No,No
+920,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+228,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1094,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+360,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+1134,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+416,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+834,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+435,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+711,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,B,File,No,No
+235,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+100,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+183,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+6,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+1033,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Twitch,No,No
+503,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+941,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+997,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,C,File,No,No
+269,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+4,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+573,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+423,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+261,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+802,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No
+626,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+295,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,File,No,No
+124,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1150,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+323,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,A,File,No,No
+676,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+122,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1183,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+995,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+539,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+1189,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Youtube,No,No
+931,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,C,File,No,No
+977,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+853,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+978,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,C,File,No,No
+1026,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+219,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+189,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1077,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,C,Twitch,No,No
+939,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+912,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+1185,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,Youtube,No,No
+585,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+667,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+823,split_rca_balanced,train,1,High Network Congestion (Sudden Spike),synthetic,B,Twitch,No,No
+643,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+194,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+354,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+245,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+417,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+237,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+1208,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Youtube,No,No
+527,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+160,split_rca_balanced,train,1,Jamming,real,A,Twitch,No,No
+1078,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,Twitch,No,No
+1102,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,Twitch,No,No
+299,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+1100,split_rca_balanced,train,1,Antenna Failure,synthetic,C,Twitch,No,No
+331,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,A,File,No,No
+478,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Youtube,No,No
+579,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+746,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Twitch,No,No
+904,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+723,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,B,File,No,No
+350,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+544,split_rca_balanced,train,1,Faulty Handover Algorithm (Too Frequent),synthetic,A,Youtube,No,No
+960,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,C,File,No,No
+817,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Twitch,No,No
+899,split_rca_balanced,train,1,Antenna Failure,synthetic,C,File,No,No
+45,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+290,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,A,File,No,No
+364,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,A,Twitch,No,No
+191,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+697,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,File,No,No
+1001,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,C,File,No,No
+882,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Youtube,No,No
+778,split_rca_balanced,train,1,High Network Congestion (Gradual Buildup),synthetic,B,Twitch,No,No
+192,split_rca_balanced,train,1,Jamming,real,A,Youtube,No,No
+728,split_rca_balanced,train,1,Buffer Overflow (Gradual Buildup),synthetic,B,Twitch,No,No
+67,split_rca_balanced,train,1,Jamming,real,A,File,No,No
+967,split_rca_balanced,train,1,Doppler Shift (Severe),synthetic,C,File,No,No
+651,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,B,File,No,No
+366,split_rca_balanced,train,1,Antenna Failure,synthetic,A,Twitch,No,No
+589,split_rca_balanced,train,1,Resource Allocation Bugs,synthetic,A,Youtube,No,No
+517,split_rca_balanced,train,1,Co-Channel Interference (Severe),synthetic,A,Youtube,No,No
+958,split_rca_balanced,train,1,Co-Channel Interference (Mild),synthetic,C,File,No,No
+821,split_rca_balanced,train,1,Faulty RF Filters (Temporal),synthetic,B,Twitch,No,No

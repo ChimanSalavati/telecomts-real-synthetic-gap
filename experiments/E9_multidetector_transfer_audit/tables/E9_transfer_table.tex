@@ -1,0 +1,20 @@
+\begin{table*}[t]
+  \caption{Multi-detector real--synthetic transfer audit on TelecomTS. Each cell reports mean$\pm$std over 10 seeds. ``F1'' is aggregate binary F1 at the validation-tuned threshold; ``AUC'' is threshold-free area under the ROC curve on the test set; ``Real''~/~``Synth'' are detection rates (recalls) within the real-Jamming and synthetic-anomaly subgroups of the test set. Columns are grouped by training setting and training regime. Across every detector tested, synthetic-only training collapses on real Jamming at scale while preserving synthetic-anomaly recall and high overall AUC.}
+  \label{tab:e9_transfer}
+  \scriptsize
+  \setlength{\tabcolsep}{1.6pt}
+  \begin{tabular}{@{}lcccccccccccccccc@{}}
+    \toprule
+    Detector & \multicolumn{4}{c}{Ctrl-500 / all} & \multicolumn{4}{c}{Ctrl-500 / synth} & \multicolumn{4}{c}{Bal-494 / synth} & \multicolumn{4}{c}{Full-6.4k / synth} \\
+    \cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}\cmidrule(lr){14-17}
+      & F1 & AUC & Real & Synth & F1 & AUC & Real & Synth & F1 & AUC & Real & Synth & F1 & AUC & Real & Synth \\
+    \midrule
+    HGB & 0.95{\scriptsize$\pm$0.02} & 0.99{\scriptsize$\pm$0.01} & 100{\scriptsize$\pm$0}\% & 91{\scriptsize$\pm$4}\% & 0.65{\scriptsize$\pm$0.03} & 0.75{\scriptsize$\pm$0.06} & 8{\scriptsize$\pm$8}\% & 92{\scriptsize$\pm$4}\% & 0.85{\scriptsize$\pm$0.00} & 0.88{\scriptsize$\pm$0.00} & 12{\scriptsize$\pm$0}\% & 99{\scriptsize$\pm$0}\% & 0.81{\scriptsize$\pm$0.01} & 0.88{\scriptsize$\pm$0.01} & 0{\scriptsize$\pm$0}\% & 96{\scriptsize$\pm$1}\% \\
+    RF & 0.94{\scriptsize$\pm$0.02} & 0.99{\scriptsize$\pm$0.01} & 100{\scriptsize$\pm$0}\% & 90{\scriptsize$\pm$7}\% & 0.66{\scriptsize$\pm$0.04} & 0.80{\scriptsize$\pm$0.04} & 16{\scriptsize$\pm$13}\% & 92{\scriptsize$\pm$4}\% & 0.84{\scriptsize$\pm$0.00} & 0.92{\scriptsize$\pm$0.00} & 17{\scriptsize$\pm$4}\% & 97{\scriptsize$\pm$0}\% & 0.80{\scriptsize$\pm$0.00} & 0.90{\scriptsize$\pm$0.01} & 0{\scriptsize$\pm$0}\% & 94{\scriptsize$\pm$1}\% \\
+    LR & 0.90{\scriptsize$\pm$0.04} & 0.96{\scriptsize$\pm$0.03} & 98{\scriptsize$\pm$4}\% & 84{\scriptsize$\pm$6}\% & 0.59{\scriptsize$\pm$0.04} & 0.68{\scriptsize$\pm$0.09} & 3{\scriptsize$\pm$4}\% & 87{\scriptsize$\pm$7}\% & 0.81{\scriptsize$\pm$0.00} & 0.83{\scriptsize$\pm$0.00} & 3{\scriptsize$\pm$0}\% & 97{\scriptsize$\pm$0}\% & 0.79{\scriptsize$\pm$0.01} & 0.84{\scriptsize$\pm$0.00} & 0{\scriptsize$\pm$0}\% & 93{\scriptsize$\pm$2}\% \\
+    kNN & 0.84{\scriptsize$\pm$0.05} & 0.93{\scriptsize$\pm$0.04} & 96{\scriptsize$\pm$5}\% & 72{\scriptsize$\pm$19}\% & 0.56{\scriptsize$\pm$0.14} & 0.73{\scriptsize$\pm$0.05} & 18{\scriptsize$\pm$17}\% & 71{\scriptsize$\pm$20}\% & 0.79{\scriptsize$\pm$0.00} & 0.84{\scriptsize$\pm$0.00} & 2{\scriptsize$\pm$0}\% & 93{\scriptsize$\pm$0}\% & 0.77{\scriptsize$\pm$0.00} & 0.84{\scriptsize$\pm$0.00} & 0{\scriptsize$\pm$0}\% & 88{\scriptsize$\pm$2}\% \\
+    MLP & 0.87{\scriptsize$\pm$0.05} & 0.95{\scriptsize$\pm$0.03} & 94{\scriptsize$\pm$9}\% & 85{\scriptsize$\pm$8}\% & 0.55{\scriptsize$\pm$0.07} & 0.71{\scriptsize$\pm$0.06} & 14{\scriptsize$\pm$18}\% & 73{\scriptsize$\pm$10}\% & 0.80{\scriptsize$\pm$0.01} & 0.81{\scriptsize$\pm$0.02} & 2{\scriptsize$\pm$0}\% & 96{\scriptsize$\pm$1}\% & 0.80{\scriptsize$\pm$0.01} & 0.87{\scriptsize$\pm$0.01} & 0{\scriptsize$\pm$0}\% & 95{\scriptsize$\pm$2}\% \\
+    XGB & 0.94{\scriptsize$\pm$0.01} & 0.98{\scriptsize$\pm$0.01} & 100{\scriptsize$\pm$0}\% & 93{\scriptsize$\pm$4}\% & 0.64{\scriptsize$\pm$0.06} & 0.73{\scriptsize$\pm$0.06} & 10{\scriptsize$\pm$10}\% & 90{\scriptsize$\pm$7}\% & 0.83{\scriptsize$\pm$0.01} & 0.87{\scriptsize$\pm$0.00} & 9{\scriptsize$\pm$5}\% & 97{\scriptsize$\pm$1}\% & 0.82{\scriptsize$\pm$0.00} & 0.83{\scriptsize$\pm$0.01} & 0{\scriptsize$\pm$0}\% & 97{\scriptsize$\pm$1}\% \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
